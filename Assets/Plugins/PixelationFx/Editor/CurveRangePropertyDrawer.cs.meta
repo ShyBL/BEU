@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9ca7f81bd08554646a7d0c5025724ba9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271730
+  packageName: PixelationFx
+  packageVersion: 1.2
+  assetPath: Assets/PixelationFx/Editor/CurveRangePropertyDrawer.cs
+  uploadId: 667736

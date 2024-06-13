@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8fb609ae800d4ad4ea60345e8437077c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271730
+  packageName: PixelationFx
+  packageVersion: 1.2
+  assetPath: Assets/PixelationFx/Runtime/Pixelation.cs
+  uploadId: 667736

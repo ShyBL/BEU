@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: eab7da97c90c8b04094c8eb2d18dfe99
+timeCreated: 1697620992
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271730
+  packageName: PixelationFx
+  packageVersion: 1.2
+  assetPath: Assets/PixelationFx/Editor/PassDrawer.cs
+  uploadId: 667736

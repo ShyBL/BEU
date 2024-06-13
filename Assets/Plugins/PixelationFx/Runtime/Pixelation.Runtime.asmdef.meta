@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 36012c93722d7264b93ffeee174d47b0
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271730
+  packageName: PixelationFx
+  packageVersion: 1.2
+  assetPath: Assets/PixelationFx/Runtime/Pixelation.Runtime.asmdef
+  uploadId: 667736

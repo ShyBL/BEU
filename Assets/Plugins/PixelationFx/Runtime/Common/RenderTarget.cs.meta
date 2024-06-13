@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 01983ff90dca049489e3d509ea16e298
+timeCreated: 1697618098
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271730
+  packageName: PixelationFx
+  packageVersion: 1.2
+  assetPath: Assets/PixelationFx/Runtime/Common/RenderTarget.cs
+  uploadId: 667736

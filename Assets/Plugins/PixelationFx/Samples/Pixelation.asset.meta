@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8cb611cec35ab744d99a40abc4020c77
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271730
+  packageName: PixelationFx
+  packageVersion: 1.2
+  assetPath: Assets/PixelationFx/Samples/Pixelation.asset
+  uploadId: 667736

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2bf2830f83506eb4097cdebfd30a7bb8
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271730
+  packageName: PixelationFx
+  packageVersion: 1.2
+  assetPath: Assets/PixelationFx/Runtime/Pixelation/Pixelation.shader
+  uploadId: 667736

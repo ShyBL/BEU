@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3773a0646bab0ea40a7d973b96aa3f25
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271730
+  packageName: PixelationFx
+  packageVersion: 1.2
+  assetPath: Assets/PixelationFx/Samples/Pixelation.unity
+  uploadId: 667736

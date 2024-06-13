@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 3d11c6a0fd4960d44a5a591775def022
+timeCreated: 1697796247
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271730
+  packageName: PixelationFx
+  packageVersion: 1.2
+  assetPath: Assets/PixelationFx/Runtime/Common/VolFx.Pass.cs
+  uploadId: 667736
