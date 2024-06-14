@@ -11,6 +11,13 @@ public class FightTrigger : MonoBehaviour
     [SerializeField] CinemachineVirtualCamera cam;
     [SerializeField] private Transform place;
 
+    private EnemyManager enemyManager;
+
+    private void Start()
+    {
+        enemyManager = GetComponent<EnemyManager>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         //chack if only player set in
@@ -26,6 +33,7 @@ public class FightTrigger : MonoBehaviour
         {
             cam.Follow = place;
         }
+        enemyManager.SpawnEnemys();
        
     }
 }
