@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayerGroundedState : PlayerState
@@ -29,13 +30,17 @@ public class PlayerGroundedState : PlayerState
     private void Subscribe()
     {
         player.InputManager.onJump += OnJump;
+        player.InputManager.onAction += OnAction;
     }
+
+
 
     private void Unsubscribe()
     {
         player.InputManager.onJump -= OnJump;
+        player.InputManager.onAction -= OnAction;
 
-    }
+    }  
 
     private void OnJump()
     {
@@ -44,5 +49,27 @@ public class PlayerGroundedState : PlayerState
 
     }
 
+    /// <summary>
+    /// Action will pickup if player over item, else will attack.
+    /// </summary>
+    private void OnAction()
+    {
+        if (!player.isGrounded() || !canAttack) {
+            Debug.Log("Cant Attack");
+            return;
+        }
+        
+
+        if (IsOverPickup())
+            stateMachine.ChangeState(stateMachine.PickUpState);
+        else
+            stateMachine.ChangeState(stateMachine.AttackState);
+
+    }
+
+    private bool IsOverPickup()
+    {
+        return player.ItemDetector.itemDetected ? true : false;
+    }
 
 }
