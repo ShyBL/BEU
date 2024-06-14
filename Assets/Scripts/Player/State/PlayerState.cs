@@ -16,6 +16,11 @@ public class PlayerState
     protected Vector3 moveInputVector = Vector3.zero;
 
 
+    [Header(" State ")]
+    protected bool canAttack = true;
+    protected bool isBusy = false;
+    protected bool triggerCalled;
+
     public PlayerState(Player _player, PlayerStateMachine _stateMachine, string animName)
     {
         player = _player;
@@ -55,4 +60,11 @@ public class PlayerState
         moveInputVector = player.moveInputVector;
     }
 
+
+    protected IEnumerator BusyFor(float seconds)
+    {
+        isBusy = true;
+        yield return new WaitForSeconds(seconds);
+        isBusy = false;
+    }
 }

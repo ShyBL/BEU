@@ -29,13 +29,17 @@ public class PlayerGroundedState : PlayerState
     private void Subscribe()
     {
         player.InputManager.onJump += OnJump;
+        player.InputManager.onAction += OnAction;
     }
+
+
 
     private void Unsubscribe()
     {
         player.InputManager.onJump -= OnJump;
+        player.InputManager.onAction += OnAction;
 
-    }
+    }  
 
     private void OnJump()
     {
@@ -44,5 +48,22 @@ public class PlayerGroundedState : PlayerState
 
     }
 
+    /// <summary>
+    /// Action will pickup if player over item, else will attack.
+    /// </summary>
+    private void OnAction()
+    {
+        if (IsOverPickup())
+            stateMachine.ChangeState(stateMachine.PickUpState);
+        else
+            stateMachine.ChangeState(stateMachine.AttackState);
+
+    }
+
+    private bool IsOverPickup()
+    {
+        // Insert logic to check for pickup
+        return false;
+    }
 
 }

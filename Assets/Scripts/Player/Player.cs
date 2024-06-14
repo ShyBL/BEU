@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -87,7 +88,6 @@ public class Player : MonoBehaviour
     // Physx Getters
     public Vector3 velocity() => _playerPhysx.CurrentVelocity();
     public bool isGrounded() => _playerPhysx.IsGrounded;
-
 
     void OnGUI()
     {
