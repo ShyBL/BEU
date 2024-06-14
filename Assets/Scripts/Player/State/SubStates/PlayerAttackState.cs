@@ -20,6 +20,8 @@ public class PlayerAttackState : PlayerGroundedState
         stateDuration = minTimeBetweenAttacks;
         player.DisableMovement();
         player.StopInPlace();
+        
+        SoundManager.PlaySound(soundType.ATTACK);
     }
 
     public override void Update()

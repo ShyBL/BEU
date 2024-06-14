@@ -21,6 +21,8 @@ public class PlayerPickUpState : PlayerGroundedState
         stateDuration = pickupTime;
         player.DisableMovement();
         player.StopInPlace();
+        
+        player.ItemDetector.detectedItem.SetActive(false);
     }
 
     public override void Update()
