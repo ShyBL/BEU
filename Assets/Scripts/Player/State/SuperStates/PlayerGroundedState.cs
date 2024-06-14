@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PlayerGroundedState : PlayerState
@@ -37,7 +38,7 @@ public class PlayerGroundedState : PlayerState
     private void Unsubscribe()
     {
         player.InputManager.onJump -= OnJump;
-        player.InputManager.onAction += OnAction;
+        player.InputManager.onAction -= OnAction;
 
     }  
 
@@ -53,6 +54,12 @@ public class PlayerGroundedState : PlayerState
     /// </summary>
     private void OnAction()
     {
+        if (!player.isGrounded() || !canAttack) {
+            Debug.Log("Cant Attack");
+            return;
+        }
+        
+
         if (IsOverPickup())
             stateMachine.ChangeState(stateMachine.PickUpState);
         else
@@ -62,8 +69,7 @@ public class PlayerGroundedState : PlayerState
 
     private bool IsOverPickup()
     {
-        // Insert logic to check for pickup
-        return false;
+        return player.ItemDetector.itemDetected ? true : false;
     }
 
 }

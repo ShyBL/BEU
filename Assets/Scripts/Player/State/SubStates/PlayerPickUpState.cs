@@ -11,24 +11,32 @@ public class PlayerPickUpState : PlayerGroundedState
     {
     }
 
+    [Header(" Settings ")]
+    private float pickupTime = 1f;
+
     public override void Enter()
     {
         base.Enter();
-        player.StartCoroutine(BusyFor(timeToPickup));
-
+        Debug.Log("Entered Pickup!");
+        stateDuration = pickupTime;
+        player.DisableMovement();
+        player.StopInPlace();
     }
 
     public override void Update()
     {
         base.Update();
-        if (!isBusy)
+        if (stateDuration <= 0)
+        {
+            Debug.Log("Changed to Idle");
             stateMachine.ChangeState(stateMachine.IdleState);
+        }
 
     }
 
     public override void Exit()
     {
         base.Exit();
-
+        player.EnableMovement();
     }
 }

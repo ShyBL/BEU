@@ -10,28 +10,33 @@ public class PlayerAttackState : PlayerGroundedState
     }
 
     [Header(" Settings ")]
-    private float minTimeBetweenAttacks = .2f;
+    private float minTimeBetweenAttacks = .1f;
 
 
     public override void Enter()
     {
         base.Enter();
-        player.StartCoroutine(BusyFor(minTimeBetweenAttacks));
-
+        canAttack = false;
+        stateDuration = minTimeBetweenAttacks;
+        player.DisableMovement();
+        player.StopInPlace();
     }
 
     public override void Update()
     {
         base.Update();
-        if (!isBusy)
+        if (stateDuration <= 0) {
+            Debug.Log("Changed to Idle");
             stateMachine.ChangeState(stateMachine.IdleState);
+        }
 
     }
 
     public override void Exit()
     {
         base.Exit();
-        
+        canAttack = true;
+        player.EnableMovement();
     }
 
 }

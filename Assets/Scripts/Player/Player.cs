@@ -18,6 +18,7 @@ public class Player : MonoBehaviour
     [SerializeField] private PlayerPhysx _playerPhysx; public PlayerPhysx Physx { get => _playerPhysx; }
     [SerializeField] private PlayerStateMachine _stateMachine; public PlayerStateMachine StateMachine { get => _stateMachine; }
     [SerializeField] private PlayerInputManager _inputManager; public PlayerInputManager InputManager { get => _inputManager; }
+    [SerializeField] private PlayerItemDetector _playerItemDetector; public PlayerItemDetector ItemDetector { get => _playerItemDetector; }
 
     [Header(" General Settings ")]
     [SerializeField] private bool is3DMode;
@@ -64,9 +65,12 @@ public class Player : MonoBehaviour
 
     private void MovementHandler()
     {
-        moveInputVector = _inputManager.moveVector;
-        Flip();
-        _playerPhysx.HandleMovement(moveInputVector, _moveSpeed);
+        if (canMove) {
+            moveInputVector = _inputManager.moveVector;
+            Flip();
+            _playerPhysx.HandleMovement(moveInputVector, _moveSpeed);
+        }
+        
 
     }
 
@@ -83,6 +87,7 @@ public class Player : MonoBehaviour
 
     public void Jump() => _playerPhysx.Jump(moveInputVector, _airVelocity, _jumpForce);
     public void EnableMovement() => _canMove = true;
+    public void StopInPlace() => _playerPhysx.HandleMovement(new Vector3(0,0,0), 0);
     public void DisableMovement() => _canMove = false;
 
     // Physx Getters

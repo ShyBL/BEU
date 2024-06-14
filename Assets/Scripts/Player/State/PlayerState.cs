@@ -43,7 +43,8 @@ public class PlayerState
     public virtual void Update()
     {
         stateDuration -= Time.deltaTime;
-        SetMovementVector();
+        if (player.canMove)
+            SetMovementVector();
         player.Visualizer.SetYBlend(rbVelocity.y);
 
     }
@@ -64,6 +65,7 @@ public class PlayerState
     protected IEnumerator BusyFor(float seconds)
     {
         isBusy = true;
+        Debug.Log("Started");
         yield return new WaitForSeconds(seconds);
         isBusy = false;
     }
