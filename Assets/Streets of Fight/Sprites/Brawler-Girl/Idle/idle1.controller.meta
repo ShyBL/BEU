@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d257e56ba44e24819a0a36901dd0f2f1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211512
+  packageName: Streets of Fight
+  packageVersion: 1.0
+  assetPath: Assets/Streets of Fight/Sprites/Brawler-Girl/Idle/idle1.controller
+  uploadId: 475553

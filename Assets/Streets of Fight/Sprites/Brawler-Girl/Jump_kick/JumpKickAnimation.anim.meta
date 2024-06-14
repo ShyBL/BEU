@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f464ddf58e2d450d822c4c0d75e9f36
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211512
+  packageName: Streets of Fight
+  packageVersion: 1.0
+  assetPath: Assets/Streets of Fight/Sprites/Brawler-Girl/Jump_kick/JumpKickAnimation.anim
+  uploadId: 475553
