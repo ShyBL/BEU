@@ -131,10 +131,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -253,10 +249,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -381,13 +373,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (23)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -565,10 +553,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -760,10 +744,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -930,7 +910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498122, guid: c1d46775cc1dffd41859257aad55f33c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -119.87
+      value: -119.97
       objectReference: {fileID: 0}
     - target: {fileID: 498122, guid: c1d46775cc1dffd41859257aad55f33c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1056,10 +1036,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -1126,10 +1102,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1232,10 +1204,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.3
@@ -1297,10 +1265,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1368,10 +1332,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1505,10 +1465,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1890,10 +1846,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.3
@@ -1955,10 +1907,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2087,10 +2035,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2327,10 +2271,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2618,10 +2558,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -2683,10 +2619,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2882,10 +2814,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.3
@@ -2947,10 +2875,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3373,46 +3297,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 74744542474316807, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74744542474316807, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74744542474316807, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 74744542474316807, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74744542474316807, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 74744542474316807, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 74744542474316807, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 173741870774989289, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_Avatar
-      value: 
-      objectReference: {fileID: 9000000, guid: a8cd0bc76f578e24ba891540d6f34b0a, type: 3}
-    - target: {fileID: 173741870774989289, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 9120d4b8a6a4c4e40bf6d1bf2074d8a5, type: 2}
-    - target: {fileID: 173741870774989289, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_WarningMessage
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 424899555126610025, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
       propertyPath: m_Size.x
       value: 0.96
@@ -3481,10 +3365,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2929250166720888605, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 4231594747546590387, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -3505,29 +3385,12 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4254451871287503894, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4780041077701947835, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: _moveSpeed
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 7537411978867935417, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
       propertyPath: m_Name
       value: Player3D
       objectReference: {fileID: 0}
-    - target: {fileID: 7537411978867935417, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2356382160280576205, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-    - {fileID: 8473832064883529261, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-    m_RemovedGameObjects:
-    - {fileID: 1109705922278564, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-    - {fileID: 4253460844646343078, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
-    - {fileID: 5986070920383862945, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
@@ -3542,10 +3405,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3678,7 +3537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498122, guid: c1d46775cc1dffd41859257aad55f33c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -119.87
+      value: -119.97
       objectReference: {fileID: 0}
     - target: {fileID: 498122, guid: c1d46775cc1dffd41859257aad55f33c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3737,10 +3596,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3804,13 +3659,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (24)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4071,10 +3922,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.3
@@ -4137,10 +3984,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.3
@@ -4202,10 +4045,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4278,10 +4117,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -4344,13 +4179,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.7
+      value: -24.8
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4472,13 +4303,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -119.87
+      value: -119.97
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4599,10 +4426,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4893,10 +4716,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -4954,13 +4773,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5023,10 +4838,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5196,10 +5007,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5431,10 +5238,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.7
@@ -5570,10 +5373,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25
@@ -5697,10 +5496,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5888,13 +5683,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.65
+      value: -14.75
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5954,13 +5745,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (20)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -119.87
+      value: -119.97
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6262,10 +6049,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -6445,10 +6228,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.3
@@ -6510,10 +6289,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6577,13 +6352,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.95
+      value: -10.05
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6709,13 +6480,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.4
+      value: -29.5
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6780,10 +6547,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -6841,10 +6604,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -6901,10 +6660,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6968,10 +6723,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -7034,13 +6785,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7099,10 +6846,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7233,10 +6976,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -7361,13 +7100,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (23)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7599,10 +7334,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -7664,10 +7395,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7731,13 +7458,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.57
+      value: -19.67
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7796,10 +7519,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7863,13 +7582,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (17)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.7
+      value: -24.8
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7996,10 +7711,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.3000002
@@ -8062,10 +7773,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -8127,10 +7834,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8308,10 +8011,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -8374,10 +8073,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -8423,67 +8118,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
---- !u!1001 &647536809
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4969296157679491858, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: ee5d59fcc8497a641905c26644c20880, type: 2}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -74.71
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7.728
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6952905913827027868, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_Name
-      value: ITEM (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
 --- !u!1001 &647613314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8495,10 +8129,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (05)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8899,10 +8529,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -9156,10 +8782,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20
@@ -9354,10 +8976,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.7
@@ -9419,10 +9037,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9486,10 +9100,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -9551,10 +9161,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9618,13 +9224,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (22)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9683,10 +9285,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9997,10 +9595,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20
@@ -10125,10 +9719,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10190,10 +9780,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10318,10 +9904,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (06)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10450,10 +10032,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10695,10 +10273,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10756,10 +10330,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (16)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 35
@@ -10810,6 +10380,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
   m_PrefabInstance: {fileID: 827222799}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &828620978 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9080561787947308890, guid: 79d8d1d0d5cf9bf45a9a33e3e439451f, type: 3}
+  m_PrefabInstance: {fileID: 247981544}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &833322375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10821,10 +10402,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10888,10 +10465,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -10948,10 +10521,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11014,10 +10583,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11183,10 +10748,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.7
@@ -11248,10 +10809,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (06)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11443,10 +11000,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.3
@@ -11509,10 +11062,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -11569,10 +11118,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11718,10 +11263,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -11783,10 +11324,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11978,10 +11515,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -12043,10 +11576,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12110,10 +11639,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20
@@ -12175,10 +11700,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12320,13 +11841,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.4
+      value: -29.5
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12391,10 +11908,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -12456,10 +11969,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12523,10 +12032,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25
@@ -12588,10 +12093,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13073,10 +12574,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -13133,10 +12630,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13200,10 +12693,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -13265,10 +12754,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13332,10 +12817,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -13392,10 +12873,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13576,10 +13053,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25
@@ -13646,10 +13119,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -13711,10 +13180,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13778,10 +13243,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -13843,10 +13304,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13910,10 +13367,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -13975,10 +13428,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14183,13 +13632,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (24)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14248,10 +13693,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14320,10 +13761,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25
@@ -14390,10 +13827,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14502,6 +13935,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 461620, guid: 70a4fe26c99cdd645b53ab796679e200, type: 3}
   m_PrefabInstance: {fileID: 1118030929}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1119954422
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 514293218103176073, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.941648
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.49494314
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.0020094
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2461886599592725478, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9b3010b9f5816e040a1be678aa1ea2df, type: 3}
 --- !u!1 &1128923887
 GameObject:
   m_ObjectHideFlags: 0
@@ -14635,10 +14125,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14834,10 +14320,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -15017,10 +14499,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -15077,10 +14555,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15212,7 +14686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498122, guid: c1d46775cc1dffd41859257aad55f33c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -119.87
+      value: -119.97
       objectReference: {fileID: 0}
     - target: {fileID: 498122, guid: c1d46775cc1dffd41859257aad55f33c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15514,10 +14988,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.66
@@ -15580,10 +15050,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (07)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25
@@ -15645,10 +15111,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16218,13 +15680,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16287,10 +15745,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16419,10 +15873,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -16484,10 +15934,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16689,10 +16135,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20
@@ -16758,10 +16200,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16840,10 +16278,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -16894,67 +16328,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
   m_PrefabInstance: {fileID: 1305987815}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1307752902
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4969296157679491858, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: ee5d59fcc8497a641905c26644c20880, type: 2}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -86.046
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7.728
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5600619777277499394, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6952905913827027868, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
-      propertyPath: m_Name
-      value: ITEM
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4f1152d4dc9aaf499198b943e908e0e, type: 3}
 --- !u!1001 &1309188995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16967,13 +16340,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.84
+      value: -19.94
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17032,10 +16401,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (05)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17104,10 +16469,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -17170,13 +16531,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.54
+      value: -24.64
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17487,10 +16844,6 @@ PrefabInstance:
       value: SM_Env_Road_Lines_01 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -17565,10 +16918,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -17630,10 +16979,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17697,10 +17042,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -17758,10 +17099,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -17818,10 +17155,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17885,13 +17218,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -114.87
+      value: -114.97
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18154,10 +17483,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25
@@ -18223,10 +17548,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18357,10 +17678,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -18425,7 +17742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495392, guid: 6c5d6f00dd2f1d34e8b206b956e60329, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -119.87
+      value: -119.97
       objectReference: {fileID: 0}
     - target: {fileID: 495392, guid: 6c5d6f00dd2f1d34e8b206b956e60329, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18487,7 +17804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 467878, guid: c498c5a0f7820b142b3b929366f2cf35, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.95
+      value: -10.05
       objectReference: {fileID: 0}
     - target: {fileID: 467878, guid: c498c5a0f7820b142b3b929366f2cf35, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18619,10 +17936,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -18679,10 +17992,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18745,10 +18054,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18816,10 +18121,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (07)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19092,10 +18393,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -19157,10 +18454,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19224,13 +18517,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.57
+      value: -19.67
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19289,10 +18578,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19356,10 +18641,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -19410,6 +18691,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
   m_PrefabInstance: {fileID: 1557539593}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1565387454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1549768360396138303, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 828620978}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -67.944046
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2403163526009128462, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2877258067804871423, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_Name
+      value: fightArea (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5142485486070962299, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385539484530794387, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c59e9caa2c526374bbd2128ca1b19253, type: 3}
 --- !u!1001 &1567501524
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19488,10 +18838,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -19553,10 +18899,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19620,13 +18962,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (20)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19685,10 +19023,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19752,10 +19086,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.3000002
@@ -19817,10 +19147,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19884,10 +19210,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.96
@@ -19949,10 +19271,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20018,7 +19336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498122, guid: c1d46775cc1dffd41859257aad55f33c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -119.87
+      value: -119.97
       objectReference: {fileID: 0}
     - target: {fileID: 498122, guid: c1d46775cc1dffd41859257aad55f33c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20077,10 +19395,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20306,13 +19620,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.84
+      value: -19.94
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20371,10 +19681,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20631,10 +19937,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -20692,10 +19994,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -20752,10 +20050,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21153,10 +20447,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -21219,13 +20509,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.65
+      value: -14.75
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21284,10 +20570,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21351,13 +20633,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.95
+      value: -10.05
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21417,10 +20695,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -21477,10 +20751,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21723,10 +20993,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -21789,13 +21055,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.87
+      value: -14.97
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21854,10 +21116,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21983,10 +21241,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (06)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20
@@ -22049,13 +21303,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.95
+      value: -10.05
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22186,10 +21436,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (08)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -22252,10 +21498,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.3
@@ -22317,10 +21559,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22446,10 +21684,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -22511,10 +21745,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22578,10 +21808,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.3000002
@@ -22644,13 +21870,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.87
+      value: -14.97
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22778,7 +22000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 467878, guid: c498c5a0f7820b142b3b929366f2cf35, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 467878, guid: c498c5a0f7820b142b3b929366f2cf35, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22828,10 +22050,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22895,10 +22113,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -22960,10 +22174,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23030,10 +22240,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23232,10 +22438,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (17)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -23365,10 +22567,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -23497,10 +22695,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -23562,10 +22756,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (08)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23691,13 +22881,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.95
+      value: -10.05
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23819,13 +23005,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (22)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23954,10 +23136,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24098,10 +23276,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -24163,10 +23337,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24354,13 +23524,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.54
+      value: -24.64
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24420,10 +23586,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -24480,10 +23642,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24552,13 +23710,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -114.87
+      value: -114.97
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24745,10 +23899,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25001,10 +24151,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -25068,16 +24214,12 @@ PrefabInstance:
       value: SM_Env_Road_Lines_01 (25)
       objectReference: {fileID: 0}
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25141,10 +24283,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (05)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -25206,10 +24344,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25334,10 +24468,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25469,10 +24599,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -25596,10 +24722,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25851,10 +24973,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.3
@@ -25916,10 +25034,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26184,10 +25298,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -26249,10 +25359,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26316,10 +25422,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -26377,13 +25479,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -124.87
+      value: -124.97
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -26878,7 +25976,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495392, guid: 6c5d6f00dd2f1d34e8b206b956e60329, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -119.87
+      value: -119.97
       objectReference: {fileID: 0}
     - target: {fileID: 495392, guid: 6c5d6f00dd2f1d34e8b206b956e60329, type: 3}
       propertyPath: m_LocalPosition.y
@@ -26937,10 +26035,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27003,10 +26097,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27140,10 +26230,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27324,10 +26410,6 @@ PrefabInstance:
     - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 413058, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27579,10 +26661,6 @@ PrefabInstance:
     - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27882,10 +26960,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_01 (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 485062, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.7
@@ -27947,10 +27021,6 @@ PrefabInstance:
     - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28131,10 +27201,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Road_Lines_01 (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 408044, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25
@@ -28199,8 +27265,6 @@ SceneRoots:
   - {fileID: 1866070195}
   - {fileID: 675162378}
   - {fileID: 247981544}
-  - {fileID: 1307752902}
-  - {fileID: 647536809}
   - {fileID: 965363828}
   - {fileID: 972613247}
   - {fileID: 1961482522}
@@ -28214,3 +27278,5 @@ SceneRoots:
   - {fileID: 374098151}
   - {fileID: 241521497}
   - {fileID: 74517824}
+  - {fileID: 1119954422}
+  - {fileID: 1565387454}
