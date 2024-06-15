@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
-using Cinemachine.Editor;
 
 public class FightTrigger : MonoBehaviour
 {
@@ -10,7 +7,6 @@ public class FightTrigger : MonoBehaviour
     [SerializeField] private GameObject[] walls;
     [SerializeField] CinemachineVirtualCamera cam;
     [SerializeField] private Transform place;
-    [SerializeField] private EnemyManager enemyManager;
     [SerializeField] private Enemy[] enemies;
 
     private void Start()
@@ -33,7 +29,7 @@ public class FightTrigger : MonoBehaviour
         {
             cam.Follow = place;
         }
-        // enemyManager.SpawnEnemys();
+        
         for (int i = 0; i < enemies.Length; i++)
         {
             enemies[i].stateMachine.ChangeState(new AttackState());

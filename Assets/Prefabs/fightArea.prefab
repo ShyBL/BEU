@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2403163526009128462}
+  - component: {fileID: 2548179660700203904}
   m_Layer: 0
   m_Name: fightArea
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 25, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 16.17, y: 5, z: 18.92}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6659104549122497211}
@@ -34,6 +35,18 @@ Transform:
   - {fileID: 1082427288082907352}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2548179660700203904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2877258067804871423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50ddaad7ec340b4b95e40a06d735fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5142485486070962299
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,8 +74,8 @@ Transform:
   m_GameObject: {fileID: 5142485486070962299}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: 0.92, z: -4.38}
-  m_LocalScale: {x: 1, y: 1, z: 20}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2403163526009128462}
@@ -94,7 +107,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5666618887794470048
 GameObject:
@@ -177,6 +190,8 @@ MonoBehaviour:
   - {fileID: 7385539484530794387}
   cam: {fileID: 0}
   place: {fileID: 1082427288082907352}
+  enemyManager: {fileID: 0}
+  enemies: []
 --- !u!1 &7385539484530794387
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,8 +219,8 @@ Transform:
   m_GameObject: {fileID: 7385539484530794387}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.83, y: 0.65, z: -4.38}
-  m_LocalScale: {x: 1, y: 1, z: 20}
+  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2403163526009128462}
@@ -237,5 +252,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
