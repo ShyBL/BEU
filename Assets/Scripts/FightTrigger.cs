@@ -10,12 +10,12 @@ public class FightTrigger : MonoBehaviour
     [SerializeField] private GameObject[] walls;
     [SerializeField] CinemachineVirtualCamera cam;
     [SerializeField] private Transform place;
-
-    private EnemyManager enemyManager;
+    [SerializeField] private EnemyManager enemyManager;
+    [SerializeField] private Enemy[] enemies;
 
     private void Start()
     {
-        enemyManager = GetComponent<EnemyManager>();
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -33,7 +33,11 @@ public class FightTrigger : MonoBehaviour
         {
             cam.Follow = place;
         }
-        enemyManager.SpawnEnemys();
+        // enemyManager.SpawnEnemys();
+        for (int i = 0; i < enemies.Length; i++)
+        {
+            enemies[i].stateMachine.ChangeState(new AttackState());
+        }
        
     }
 }

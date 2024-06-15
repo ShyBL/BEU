@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 
 public class EnemyManager : MonoBehaviour
 {
     [SerializeField] private EnemyInfo[] allEnemies;
-    [SerializeField] private List<Enemy> currentEnemies;
+    [SerializeField] private List<EnemyData> currentEnemies;
     [SerializeField] private Transform[] SpawnPoints;
+    [SerializeField] private Path path;
 
     private int spawnPointNum;
     private const float LEVEL_MODIFIER = 0.5F;
@@ -15,6 +17,9 @@ public class EnemyManager : MonoBehaviour
     private void Start()
     {
         spawnPointNum = SpawnPoints.Length;
+        GenerateEnemyByName("EvilCube", 1);
+
+
     }
     private void GenerateEnemyByName(string enemyName, int Level)
     {
@@ -22,7 +27,7 @@ public class EnemyManager : MonoBehaviour
         {
             if (enemyName == allEnemies[i].EnemyName)
             {
-                Enemy newEnemy = new Enemy();
+                EnemyData newEnemy = new EnemyData();
                 newEnemy.EnemyName = allEnemies[i].EnemyName;
                 newEnemy.Level = Level;
                 float levelModifier = (LEVEL_MODIFIER * newEnemy.Level);
@@ -30,24 +35,26 @@ public class EnemyManager : MonoBehaviour
                 newEnemy.CurrHealth = newEnemy.MaxHealth;
                 newEnemy.Strength = Mathf.RoundToInt(allEnemies[i].BaseStr + (allEnemies[i].BaseStr * levelModifier));
                 newEnemy.EnemyVisualPrefab = allEnemies[i].EnemyBattleVisualPrefeb;
-
-
+                newEnemy.stateMachine = allEnemies[i].stateMachine;
+                newEnemy.agent = allEnemies[i].agent;
                 currentEnemies.Add(newEnemy);
 
             }
         }
     }
-    public List<Enemy> GetCurrentEnemies()
+    public List<EnemyData> GetCurrentEnemies()
     {
         return currentEnemies;
     }
 
     public void  SpawnEnemys()
     {
-        for(int i = 0;i < currentEnemies.Count; i++)
+       
+        for (int i = 0;i < currentEnemies.Count; i++)
         {
-            GenerateEnemyByName("EvilCube", 1);
             Instantiate(currentEnemies[i].EnemyVisualPrefab, SpawnPoints[i].position,Quaternion.identity);
+            currentEnemies[i].path = path;
+            currentEnemies[i].stateMachine.Initialized();
 
         }
     }
@@ -55,7 +62,7 @@ public class EnemyManager : MonoBehaviour
 
 
 [System.Serializable]
-public class Enemy
+public class EnemyData
 {
     public string EnemyName;
     public int Level;
@@ -63,4 +70,7 @@ public class Enemy
     public int MaxHealth;
     public int Strength;
     public GameObject EnemyVisualPrefab;
+    public EnemyStatemachine stateMachine;
+    public NavMeshAgent agent;
+    public Path path;
 }

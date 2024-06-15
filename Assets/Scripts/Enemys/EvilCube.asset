@@ -9,12 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 81a3d19bcac1c12479857ea51e7aa2af, type: 3}
   m_Name: EvilCube
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyInfo
+  m_EditorClassIdentifier: 
   EnemyName: 
   StartingLevel: 0
   BaseHealth: 0
   BaseStr: 0
-  BaseInitative: 0
   EnemyBattleVisualPrefeb: {fileID: 0}
+  stateMachine: {fileID: 0}
+  agent: {fileID: 0}
+  path: {fileID: 0}
