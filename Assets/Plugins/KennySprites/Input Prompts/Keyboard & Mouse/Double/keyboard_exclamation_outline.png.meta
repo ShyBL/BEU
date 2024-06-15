@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      keyboard_exclamation_outline_0: -1698358164764072582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

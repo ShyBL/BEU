@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mouse_right_outline_0: -3288219961904825860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

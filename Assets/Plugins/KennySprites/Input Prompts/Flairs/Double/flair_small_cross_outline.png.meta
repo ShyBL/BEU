@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flair_small_cross_outline_0: 4648343134353260897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

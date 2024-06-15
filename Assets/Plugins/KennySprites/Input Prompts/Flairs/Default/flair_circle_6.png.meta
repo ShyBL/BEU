@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flair_circle_6_0: -2505628499891246056
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
