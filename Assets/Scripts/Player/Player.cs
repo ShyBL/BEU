@@ -70,8 +70,6 @@ public class Player : MonoBehaviour
             Flip();
             _playerPhysx.HandleMovement(moveInputVector, _moveSpeed);
         }
-        
-
     }
 
     public void Flip()

@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
-using Cinemachine.Editor;
 
 public class FightTrigger : MonoBehaviour
 {
