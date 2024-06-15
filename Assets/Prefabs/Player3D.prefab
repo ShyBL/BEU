@@ -123,7 +123,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   groundCheckBoxSize: {x: 0.5, y: 0.04}
-  groundCastDistance: 0.5
+  groundCastDistance: 1
 --- !u!1 &5038832970209348093
 GameObject:
   m_ObjectHideFlags: 0
