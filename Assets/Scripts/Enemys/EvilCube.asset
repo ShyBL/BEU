@@ -16,6 +16,6 @@ MonoBehaviour:
   StartingLevel: 0
   BaseHealth: 0
   BaseStr: 0
-  EnemyBattleVisualPrefeb: {fileID: 9001337525448719394, guid: 17b5ad73f24a98c4ba8626dfd97964fe, type: 3}
+  EnemyBattleVisualPrefeb: {fileID: 0}
   stateMachine: {fileID: 0}
   agent: {fileID: 0}
