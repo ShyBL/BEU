@@ -2,21 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public enum SceneType
 {
     Default,
     Main,
+    LevelSelect,
     Egypt,
     Italy,
     France,
     NewYork
 }
 
-public class MyGameManager : MonoBehaviour
+public class ScenesManager : MonoBehaviour
 {
-    private static MyGameManager instance;
+    private static ScenesManager instance;
     private Scene selectedScene;
+
+    [SerializeField] private GameObject menuCanvas;
+    [SerializeField] private GameObject menuEnvironment;
 
     private void Awake()
     {
@@ -44,15 +49,23 @@ public class MyGameManager : MonoBehaviour
         StartCoroutine(LoadLevelCoroutine(SceneType.France));
     }
     
-    public void LoadNewYorktLevelButton()
+    public void LoadNewYorkLevelButton()
     {
         StartCoroutine(LoadLevelCoroutine(SceneType.NewYork));
+    }
+
+    public void LoadLevelSelect()
+    {
+        SceneManager.LoadScene("LevelSelect", LoadSceneMode.Additive);
     }
     
     private IEnumerator LoadLevelCoroutine(SceneType sceneType)
     {
-        LoadSceneAdditive(sceneType);
-
+        SceneManager.LoadScene("Level", LoadSceneMode.Additive);
+        
+        menuCanvas.SetActive(false);
+        menuEnvironment.SetActive(false);
+        
         while (!selectedScene.isLoaded)
         {
             yield return null;
@@ -66,11 +79,6 @@ public class MyGameManager : MonoBehaviour
                     break;
             }
         }
-    }
-
-    public void LoadSceneAdditive(SceneType sceneType)
-    {
-        SceneManager.LoadScene((int)sceneType, LoadSceneMode.Additive);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
