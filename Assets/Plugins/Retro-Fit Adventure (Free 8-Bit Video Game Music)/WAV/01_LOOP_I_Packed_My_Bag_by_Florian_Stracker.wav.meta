@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 46069d82483187b408f873fc0ded913a
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 0
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 205627
+  packageName: Retro-Fit Adventure (Free 8-Bit Video Game Music)
+  packageVersion: 1.0
+  assetPath: Assets/Retro-Fit Adventure (Free 8-Bit Video Game Music)/WAV/01_LOOP_I_Packed_My_Bag_by_Florian_Stracker.wav
+  uploadId: 459406

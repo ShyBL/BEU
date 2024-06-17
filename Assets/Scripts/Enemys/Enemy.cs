@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour
     public float sightDistance = 30f;
     public float fieldOfView = 300f;
 
+    private bool doSoundOnce = true;
+    
     // Start is called before the first frame update
     void Awake()
     {
@@ -48,6 +50,13 @@ public class Enemy : MonoBehaviour
                         if(hitInfo.transform.gameObject == player)
                         {
                             Debug.DrawRay(ray.origin, ray.direction * sightDistance);
+
+                            if(doSoundOnce)
+                            {
+                                SoundManager.PlaySound(soundType.ALERT);
+                                doSoundOnce = false;
+                            }
+                            
                             return true;
                         }
                     }

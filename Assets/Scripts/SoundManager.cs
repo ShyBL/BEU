@@ -9,7 +9,9 @@ public enum soundType
     WALKING,
     ATTACK,
     PICKUP,
-    HIT
+    HIT,
+    JUMP,
+    ALERT
 }
 
 [RequireComponent(typeof(AudioSource)), ExecuteInEditMode]

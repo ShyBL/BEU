@@ -12,6 +12,8 @@ public class PlayerJumpState : PlayerAirState
     {
         base.Enter();
         player.Jump();
+        
+        SoundManager.PlaySound(soundType.JUMP);
     }
 
     public override void Exit()

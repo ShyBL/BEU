@@ -8,7 +8,7 @@ public class AttackState : BaseState
     private float losePlayerTimer;
     public override void Enter()
     {
-       
+        
     }
 
     public override void Exit()
@@ -20,12 +20,9 @@ public class AttackState : BaseState
     {
         if(enemy.CanSeePlayer())
         {
-            
-                enemy.Agent.SetDestination(enemy.player.transform.position);
-                moveTimer = 0;
-        
+            enemy.Agent.SetDestination(enemy.player.transform.position);
+            moveTimer = 0;
         }
-        
     }
 
     
