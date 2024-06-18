@@ -57,7 +57,6 @@ public class PlayerGroundedState : PlayerState
             return;
         }
 
-
         if (IsOverPickup())
         {
             stateMachine.ChangeState(stateMachine.PickUpState);

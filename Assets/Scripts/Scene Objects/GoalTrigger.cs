@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GoalTrigger : MonoBehaviour
 {
-    private SceneType selectedScene;
+    public SceneType selectedScene;
 
     private void Start()
     {

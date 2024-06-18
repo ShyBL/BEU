@@ -3,7 +3,12 @@ guid: 84c9c57d7f91d7d4abbdfdd576dd89c2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beem_MAT
+    second: {fileID: 2100000, guid: c7cf711d969275b4c8c864abfdef5c53, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

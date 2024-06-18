@@ -3,7 +3,12 @@ guid: b98ab3139783482428aa3e96b0b6eb5b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dust_MAT
+    second: {fileID: 2100000, guid: eb5e48213e47a174eb9336442080bfb7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
