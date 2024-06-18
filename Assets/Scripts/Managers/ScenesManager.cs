@@ -4,11 +4,15 @@ using UnityEngine.SceneManagement;
 
 public class ScenesManager : MonoBehaviour
 {
-    private static ScenesManager instance;
+    public static ScenesManager instance;
     private Scene mainScene;
-    private SceneType selectedScene;
-    
+    public SceneType selectedScene;
 
+    public bool isEgyptLevelDone;
+    public bool isItalyLevelDone;
+    public bool isFranceLevelDone;
+    public bool isNewYorkLevelDone;
+    
     private void Awake()
     {
         if (instance == null)
