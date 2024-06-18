@@ -50,7 +50,9 @@ public class PlayerGroundedState : PlayerState
     /// </summary>
     private void OnAction()
     {
-        if (!player.isGrounded() || !canAttack) {
+        //if (!player.isGrounded() || !canAttack) 
+        if (!canAttack)
+        {
             Debug.Log("Cant Attack");
             return;
         }
