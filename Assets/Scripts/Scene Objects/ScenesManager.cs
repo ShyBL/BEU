@@ -5,11 +5,8 @@ using UnityEngine.SceneManagement;
 public class ScenesManager : MonoBehaviour
 {
     private static ScenesManager instance;
-    //private static Scene selectedScene;
-    private static Scene mainScene;
-
-    private static SceneType selectedScene;
-    //private static Scene dummyScene;
+    private Scene mainScene;
+    private SceneType selectedScene;
     
 
     private void Awake()
@@ -45,7 +42,7 @@ public class ScenesManager : MonoBehaviour
         SceneManager.UnloadSceneAsync(1);
         
         SceneManager.LoadSceneAsync("Level", LoadSceneMode.Additive);
-        selectedScene = sceneType;
+        instance.selectedScene = sceneType;
         
     }
 

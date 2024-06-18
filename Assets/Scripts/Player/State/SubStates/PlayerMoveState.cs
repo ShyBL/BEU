@@ -16,12 +16,14 @@ public class PlayerMoveState : PlayerGroundedState
     {
         base.Enter();
         StartFootstepSound();
+        ParticlesManager.PlayFXByType(FXType.Footsteps);
     }
 
     public override void Exit()
     {
         base.Exit();
         StopFootstepSound();
+        ParticlesManager.StopFXByType(FXType.Footsteps);
     }
 
     public override void Update()
