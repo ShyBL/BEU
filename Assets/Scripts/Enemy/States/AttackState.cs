@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class AttackState : BaseState
 {
-    private float moveTimer;
     private float losePlayerTimer;
     public override void Enter()
     {
@@ -20,8 +19,11 @@ public class AttackState : BaseState
     {
         if(enemy.CanSeePlayer())
         {
-            enemy.Agent.SetDestination(enemy.player.transform.position);
-            moveTimer = 0;
+            if(Vector3.Distance(enemy.transform.position,enemy.player.transform.position) > 1.5)
+            {
+                enemy.Agent.SetDestination(enemy.player.transform.position);
+            }
+           
         }
     }
 
