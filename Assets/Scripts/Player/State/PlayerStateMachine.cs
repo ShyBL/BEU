@@ -14,6 +14,8 @@ public class PlayerStateMachine
     public PlayerJumpState JumpState { get; private set; }
     public PlayerAttackState AttackState { get; private set; }
     public PlayerPickUpState PickUpState { get; private set; }
+    
+    public PlayerDestroyState DestroyState { get; private set; }
 
     #endregion [--- States ---]
     public void Initialize()
@@ -38,6 +40,7 @@ public class PlayerStateMachine
         JumpState = new PlayerJumpState(_player,this, States.JUMP);
         AttackState = new PlayerAttackState(_player, this, States.ATTACK);
         PickUpState = new PlayerPickUpState(_player, this, States.PICKUP);
+        DestroyState = new PlayerDestroyState(_player, this, States.DESTROY);
 
     }
 

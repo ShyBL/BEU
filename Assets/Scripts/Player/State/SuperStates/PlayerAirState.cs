@@ -32,15 +32,12 @@ public class PlayerAirState : PlayerState
     {
         base.Exit();
     }
-
-
-
+    
     private void CheckIfIdle()
     {
         if (player.isGrounded() && player.Physx.CurrentVelocity().y < LANDING_THRESHOLD)
         {
             stateMachine.ChangeState(stateMachine.IdleState);
-
         }
     }
 

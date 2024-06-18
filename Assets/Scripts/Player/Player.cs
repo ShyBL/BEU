@@ -19,7 +19,9 @@ public class Player : MonoBehaviour
     [SerializeField] private PlayerStateMachine _stateMachine; public PlayerStateMachine StateMachine { get => _stateMachine; }
     [SerializeField] private PlayerInputManager _inputManager; public PlayerInputManager InputManager { get => _inputManager; }
     [SerializeField] private PlayerItemDetector _playerItemDetector; public PlayerItemDetector ItemDetector { get => _playerItemDetector; }
+    [SerializeField] private PlayerItemDestroyer _playerItemDestroyer; public PlayerItemDestroyer ItemDestroyer { get => _playerItemDestroyer; }
 
+    
     [Header(" General Settings ")]
     [SerializeField] private bool is3DMode;
 

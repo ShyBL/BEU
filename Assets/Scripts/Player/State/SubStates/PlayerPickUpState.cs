@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerPickUpState : PlayerGroundedState
@@ -22,6 +20,12 @@ public class PlayerPickUpState : PlayerGroundedState
         player.DisableMovement();
         player.StopInPlace();
         
+        ParticlesManager.PlayFXByType(FXType.Pickup);
+
+        if (player.ItemDetector.detectedItem.TryGetComponent(out Pickup pickup))
+        {
+            pickup.OnPickUp();
+        }
     }
 
     public override void Update()
@@ -39,5 +43,7 @@ public class PlayerPickUpState : PlayerGroundedState
     {
         base.Exit();
         player.EnableMovement();
+        
+        ParticlesManager.StopFXByType(FXType.Pickup);
     }
 }

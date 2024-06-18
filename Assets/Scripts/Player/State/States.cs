@@ -13,5 +13,6 @@ public static class States
     public static string JUMP = "jump_state";
     public static string ATTACK = "attack_state";
     public static string PICKUP = "pickup";
+    public static string DESTROY = "pickup";
 
 }

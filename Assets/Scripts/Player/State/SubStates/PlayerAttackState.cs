@@ -22,6 +22,7 @@ public class PlayerAttackState : PlayerGroundedState
         player.StopInPlace();
         
         SoundManager.PlaySound(soundType.ATTACK);
+        //ParticlesManager.PlayFXByType(FXType.Pickup);
     }
 
     public override void Update()
@@ -39,6 +40,7 @@ public class PlayerAttackState : PlayerGroundedState
         base.Exit();
         canAttack = true;
         player.EnableMovement();
+        //ParticlesManager.StopFXByType(FXType.Pickup);
     }
 
 }

@@ -54,18 +54,33 @@ public class PlayerGroundedState : PlayerState
             Debug.Log("Cant Attack");
             return;
         }
-        
+
 
         if (IsOverPickup())
+        {
             stateMachine.ChangeState(stateMachine.PickUpState);
+        }
+            
+        else if (IsOverDestroyable())
+        {
+            stateMachine.ChangeState(stateMachine.PickUpState);
+        }
         else
+        {
             stateMachine.ChangeState(stateMachine.AttackState);
+        }
+            
 
     }
 
     private bool IsOverPickup()
     {
         return player.ItemDetector.itemDetected ? true : false;
+    }
+    
+    private bool IsOverDestroyable()
+    {
+        return player.ItemDestroyer.itemDetected ? true : false;
     }
 
 }

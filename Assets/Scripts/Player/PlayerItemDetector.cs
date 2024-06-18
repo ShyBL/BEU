@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerItemDetector : MonoBehaviour
@@ -10,7 +7,7 @@ public class PlayerItemDetector : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Pickup")) 
+        if (other.TryGetComponent(out Pickup pickup)) 
         {
             detectedItem = other.gameObject;
             itemDetected = true;
@@ -19,7 +16,7 @@ public class PlayerItemDetector : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Pickup")) 
+        if (other.TryGetComponent(out Pickup pickup)) 
         {
             detectedItem = null;
             itemDetected = false;
