@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81a3d19bcac1c12479857ea51e7aa2af, type: 3}
   m_Name: EvilCube
   m_EditorClassIdentifier: 
-  EnemyName: 
-  StartingLevel: 0
-  BaseHealth: 0
-  BaseStr: 0
-  EnemyBattleVisualPrefeb: {fileID: 0}
-  stateMachine: {fileID: 0}
-  agent: {fileID: 0}
-  path: {fileID: 0}
+  EnemyName: EvilCube
+  StartingLevel: 1
+  BaseHealth: 10
+  BaseStr: 5
+  EnemyBattleVisualPrefeb: {fileID: 4447178253186135885, guid: 618f73345cf3f0443a4114991a9ac18b, type: 3}
+  stateMachine: {fileID: 716189021598992976, guid: 618f73345cf3f0443a4114991a9ac18b, type: 3}
+  agent: {fileID: 9127372401876821661, guid: 618f73345cf3f0443a4114991a9ac18b, type: 3}
