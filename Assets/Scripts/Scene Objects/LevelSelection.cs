@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem.HID;
 using UnityEngine.UI;
@@ -8,13 +9,10 @@ using UnityEngine.UI;
 public class LevelSelection : MonoBehaviour
 {
     [SerializeField] private GameObject selection;
-    [SerializeField] private RectTransform rectTransform;
-    [SerializeField] private Canvas canvas;
-    private Camera mainCam => Camera.main;
-
+    [SerializeField] private GameObject camFollow;
     [SerializeField] private Button button;
     [SerializeField] private SceneType _sceneType;
-    
+
     void Start()
     {
         button = GetComponent<Button>();
@@ -44,39 +42,24 @@ public class LevelSelection : MonoBehaviour
                     button.interactable = false;
                 }
                 break;
+            case SceneType.Default:
+                break;
+            case SceneType.Main:
+                break;
+            case SceneType.LevelSelect:
+                break;
             default:
                 throw new ArgumentOutOfRangeException();
         }
-        rectTransform.position = RectTransformUtility.WorldToScreenPoint
-            (mainCam, selection.transform.position);
+        // rectTransform.position = RectTransformUtility.WorldToScreenPoint
+        //     (mainCam, selection.transform.position);
     }
-    
-    void FixedUpdate()
-    {
 
-        rectTransform.position = RectTransformUtility.WorldToScreenPoint
-            (mainCam, selection.transform.position);
-    }
-    
-    
-    
-    public void LoadEgyptLevelButton()
+    public void CameraToSelection()
     {
-        ScenesManager.LoadLevelCoroutine(SceneType.Egypt);
-    }
-    
-    public void LoadItalyLevelButton()
-    {
-        ScenesManager.LoadLevelCoroutine(SceneType.Italy);
-    }
-    
-    public void LoadFranceLevelButton()
-    {
-        ScenesManager.LoadLevelCoroutine(SceneType.France);
-    }
-    
-    public void LoadNewYorkLevelButton()
-    {
-        ScenesManager.LoadLevelCoroutine(SceneType.NewYork);
+        camFollow.transform.DOMove(selection.transform.position, 1).OnComplete(() =>
+        {
+            ScenesManager.LoadLevel(_sceneType);
+        });
     }
 }

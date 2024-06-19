@@ -10,7 +10,7 @@ public class PlayerAttackState : PlayerGroundedState
     }
 
     [Header(" Settings ")]
-    private float minTimeBetweenAttacks = 2f;
+    private float minTimeBetweenAttacks = 1f;
 
 
     public override void Enter()

@@ -6,7 +6,7 @@ public class ScenesManager : MonoBehaviour
 {
     public static ScenesManager instance;
     private Scene mainScene;
-    public SceneType selectedScene;
+    public static SceneType selectedScene;
 
     public bool isEgyptLevelDone;
     public bool isItalyLevelDone;
@@ -41,18 +41,16 @@ public class ScenesManager : MonoBehaviour
         }
     }
 
-    public static void LoadLevelCoroutine(SceneType sceneType)
+    public static void LoadLevel(SceneType sceneType)
     {
-        SceneManager.UnloadSceneAsync(1);
-        
         SceneManager.LoadSceneAsync("Level", LoadSceneMode.Additive);
-        instance.selectedScene = sceneType;
+        SceneManager.UnloadSceneAsync("LevelSelect");
+        selectedScene = sceneType;
         
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-
         if (scene.name == "Level")
         {
             foreach (var obj in scene.GetRootGameObjects())

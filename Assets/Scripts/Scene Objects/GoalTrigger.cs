@@ -8,7 +8,7 @@ public class GoalTrigger : MonoBehaviour
 
     private void Start()
     {
-        selectedScene = ScenesManager.instance.selectedScene;
+        selectedScene = ScenesManager.selectedScene;
     }
 
     private void OnTriggerEnter(Collider other)
