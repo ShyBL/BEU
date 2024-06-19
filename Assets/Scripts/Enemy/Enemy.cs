@@ -9,23 +9,26 @@ public class Enemy : MonoBehaviour
 {
     public EnemyStatemachine stateMachine;
     private NavMeshAgent agent;
+    // private Animator animator;
     public NavMeshAgent Agent { get => agent; }
     public Path path;
     public GameObject player;
+    private Player playerFunc;
     public float sightDistance = 30f;
-    public float attckDistance = 5f;
+   // public float attckDistance = 1f;
     public float fieldOfView = 300f;
 
     [Header("Stats")]
-    public int maxHealth = 100;
+    public int maxHealth = 15;
     public int currentHealth;
-    [SerializeField] private int hitDamage = 5 ;
+    [SerializeField] private int hitDamage = 1 ;
+    public int attacktime = 3;
 
 
+    public bool IsAlive ;
     private bool doSoundOnce = true;
-    private const string IS_WALKING_PARAM = "IsWalk";
     
-    //thingis to add
+    
     //public Transfom attckpoint
     
     void Awake()
@@ -34,19 +37,22 @@ public class Enemy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         stateMachine.Initialized();
         player = GameObject.FindGameObjectWithTag("Player");
+        playerFunc = player.GetComponent<Player>();
+        currentHealth = maxHealth;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         CanSeePlayer();
-
+        this.transform.LookAt(player.transform.position);
     }
     public bool CanSeePlayer()
     {
         if(player != null)
         {
-            // is the player colse enough to be seen
+            // is the player close enough to be seen
             if (Vector3.Distance(transform.position, player.transform.position) < sightDistance )
             {
                 Vector3 targetDirection = player.transform.position - transform.position; 
@@ -78,14 +84,11 @@ public class Enemy : MonoBehaviour
     public void AttackPlayer()
     {
         // Detect if player in range
-
-        if (Vector3.Distance(transform.position,player.transform.position) > attckDistance)
-        {
-            // start animation
-            //Collider hitPlayer = Physics.OverlapSphere(atttackPoint.position,attckDistance)
-            //damage them
-            //player.health.hit()
-        }
+            Debug.Log("Attack" + hitDamage);
+        // start animation
+        //Collider hitPlayer = Physics.OverlapSphere(atttackPoint.position,attckDistance)
+        //damage
+        playerFunc.GotHit(hitDamage);
    
     }
 
@@ -103,5 +106,10 @@ public class Enemy : MonoBehaviour
     {
         //die animation
         //disable object
+        
+        this.gameObject.SetActive(false);
+        Debug.Log(this.name + " DEAD");
+        IsAlive = false;
+        this.enabled = false;
     }
 }

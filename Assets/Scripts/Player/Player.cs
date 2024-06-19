@@ -25,8 +25,16 @@ public class Player : MonoBehaviour
     [Header(" General Settings ")]
     [SerializeField] private bool is3DMode;
 
+    [Header("Stats")]
+    [SerializeField] private int MaxHealth;
+    [SerializeField] private int HitDamage = 5;
+
+    private int currentHealth;
     public Vector3 moveInputVector { get; private set; }
     public int facingDirection { get; private set; }
+    public Transform attackPoint;
+    public float attackRange = 1f;
+    public LayerMask enemyLayer;
 
     Rect rect = new Rect(0, 0, 300, 100);
     Vector3 offset = new Vector3(0f, 0f, 0.5f);
@@ -35,12 +43,14 @@ public class Player : MonoBehaviour
     {
         _inputManager.onMove += MovementHandler;
         _inputManager.onMoveStopped += MovementHandler;
+        _inputManager.onAttack += Attack;
     }
 
     private void OnDisable()
     {
         _inputManager.onMove -= MovementHandler;
         _inputManager.onMoveStopped -= MovementHandler;
+        _inputManager.onAttack -= Attack;
     }
 
     private void Awake()
@@ -54,12 +64,17 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        currentHealth = MaxHealth;
         _stateMachine = new PlayerStateMachine();
         _stateMachine.Initialize();
     }
 
     void Update()
     {
+        if(_inputManager)
+        {
+
+        }
         _stateMachine.currentState.Update();
         MovementHandler();
     }
@@ -103,5 +118,42 @@ public class Player : MonoBehaviour
         rect.y = Screen.height - point.y - rect.height; // bottom left corner set to the 3D point
         GUI.Label(rect, _stateMachine.currentState.ToString()); // display its name, or other string
     }
+    public void Attack()
+    {
+        Debug.Log("Player Attack");
+        // start animation
+        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange,enemyLayer);
+        foreach (Collider enemy in hitEnemies)
+        {
+            //damage them
+            enemy.GetComponent<Enemy>().TakeDamage(HitDamage);
+            Debug.Log("We hit" + enemy.name);
+        }
+       
+       
 
+    }
+
+    public void GotHit(int damage)
+    {
+        currentHealth -= damage;
+        //play animation
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        //die animation
+        //disable object
+        //Debug.Log("Die!!!!");
+    }
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+            return;
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
 }
