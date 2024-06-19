@@ -31,7 +31,7 @@ public class PlayerMoveState : PlayerGroundedState
         base.Update();
         
         CheckIfStopped();
-        CheckIfFalling();
+        // CheckIfFalling();
     }
 
     private void CheckIfStopped()
