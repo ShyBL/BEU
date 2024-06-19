@@ -22,6 +22,7 @@ public class PlayerAttackState : PlayerGroundedState
         player.StopInPlace();
         
         SoundManager.PlaySound(soundType.ATTACK);
+        player.Attack();
         //ParticlesManager.PlayFXByType(FXType.Pickup);
     }
 

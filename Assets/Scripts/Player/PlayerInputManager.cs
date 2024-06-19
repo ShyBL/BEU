@@ -27,7 +27,7 @@ public class PlayerInputManager : MonoBehaviour
         _actionAsset.Player.Jump.performed += OnJumpPerformed;
         _actionAsset.Player.Action.performed += OnActionPerformed;
         _actionAsset.Player.Dash.performed += OnDashPerfromed;
-        _actionAsset.Player.Attack.performed += OnAttack;
+        //_actionAsset.Player.Attack.performed += OnAttack;
     }
     
     private void OnDisable()
@@ -37,7 +37,7 @@ public class PlayerInputManager : MonoBehaviour
         _actionAsset.Player.Jump.performed -= OnJumpPerformed;
         _actionAsset.Player.Action.performed -= OnActionPerformed;
         _actionAsset.Player.Dash.performed -= OnDashPerfromed;
-        _actionAsset.Player.Attack.performed -= OnAttack;
+        //_actionAsset.Player.Attack.performed -= OnAttack;
         _actionAsset.Disable();
     }
     
@@ -69,8 +69,8 @@ public class PlayerInputManager : MonoBehaviour
     {
         onDash?.Invoke();
     }
-    private void OnAttack(InputAction.CallbackContext context)
-    {
-        onAttack?.Invoke();
-    }
+    // private void OnAttack(InputAction.CallbackContext context)
+    // {
+    //     onAttack?.Invoke();
+    // }
 }

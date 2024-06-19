@@ -15103,6 +15103,13 @@ MonoBehaviour:
   _playerItemDetector: {fileID: 4252956259772364979}
   _playerItemDestroyer: {fileID: 8316844834974690175}
   is3DMode: 1
+  MaxHealth: 0
+  HitDamage: 5
+  attackPoint: {fileID: 2929250166720888605}
+  attackRange: 1
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!54 &3911534760281470883
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24886,6 +24893,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2929250166720888605}
     m_Modifications:
+    - target: {fileID: 1404428681307318044, guid: 3dd26248e2e1d0142bd9050ba84a1221, type: 3}
+      propertyPath: m_Name
+      value: Hand
+      objectReference: {fileID: 0}
     - target: {fileID: 2774060969483127082, guid: 3dd26248e2e1d0142bd9050ba84a1221, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -24937,8 +24948,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1404428681307318044, guid: 3dd26248e2e1d0142bd9050ba84a1221, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2325531159475984902}
   m_SourcePrefab: {fileID: 100100000, guid: 3dd26248e2e1d0142bd9050ba84a1221, type: 3}
+--- !u!1 &1307140292725411434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1404428681307318044, guid: 3dd26248e2e1d0142bd9050ba84a1221, type: 3}
+  m_PrefabInstance: {fileID: 98636476888050038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2325531159475984902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307140292725411434}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Center: {x: 0.38683772, y: 0.705236, z: -0.0019119214}
 --- !u!4 &2819566295528218716 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2774060969483127082, guid: 3dd26248e2e1d0142bd9050ba84a1221, type: 3}

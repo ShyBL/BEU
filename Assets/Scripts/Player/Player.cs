@@ -129,9 +129,6 @@ public class Player : MonoBehaviour
             enemy.GetComponent<Enemy>().TakeDamage(HitDamage);
             Debug.Log("We hit" + enemy.name);
         }
-       
-       
-
     }
 
     public void GotHit(int damage)

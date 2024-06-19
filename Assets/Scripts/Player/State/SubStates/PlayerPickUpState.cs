@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class PlayerPickUpState : PlayerGroundedState
 {
-    [Header(" Settings ")]
-    private float timeToPickup = .2f;
-
     public PlayerPickUpState(Player _player, PlayerStateMachine _stateMachine, string animName) : base(_player, _stateMachine, animName)
     {
     }

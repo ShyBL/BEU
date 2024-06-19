@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class PlayerDestroyState : PlayerGroundedState
 {
-    [Header(" Settings ")]
-    private float timeToPickup = .2f;
-
     public PlayerDestroyState(Player _player, PlayerStateMachine _stateMachine, string animName) : base(_player, _stateMachine, animName)
     {
     }
