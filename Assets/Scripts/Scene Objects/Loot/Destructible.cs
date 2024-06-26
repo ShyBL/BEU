@@ -12,7 +12,7 @@ public class Destructible : MonoBehaviour
 
     public void OnDestroyThis()
     {
-        animator.Play(1);
+        animator.Play("Barrel_Boom");
         
         Invoke(nameof(DestroyThis),animator.GetCurrentAnimatorClipInfo(1).Length);
     }

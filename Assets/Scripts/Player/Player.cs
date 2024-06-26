@@ -98,6 +98,18 @@ public class Player : MonoBehaviour
         {
             facingDirection = moveInputVector.x > 0 ? 1 : -1;
             transform.localScale = new Vector3(1 * facingDirection, 1, 1);
+
+            var shape = ParticlesManager.instance.Footsteps.shape;
+            if (facingDirection == -1)
+            {
+                shape.rotation = new Vector3(0, 90, 0);
+            }
+            else
+            {
+                shape.rotation = new Vector3(0, -90, 0);
+            }
+            
+            
         }
             
     }

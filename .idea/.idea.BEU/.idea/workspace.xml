@@ -5,10 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b2809a-e3dc-41c5-864d-b6d5fb2d6ed8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Levels/Giza_MDL.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Levels/Giza_MDL.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BEU/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BEU/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AlienScript-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AlienScript-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GABRWFFR SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GABRWFFR SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SimplePixelUI/fonts/Font2/pixelfont2 SDF 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/SimplePixelUI/fonts/Font2/pixelfont2 SDF 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Levels/Essentials/Destructible.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Levels/Essentials/Destructible.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Models/Barrel_BOOM.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Models/Barrel_BOOM.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player3D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player3D.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player3D.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player3D.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tests/Demo City.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tests/Demo City.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/ParticlesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ParticlesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerActions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerActions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerActions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene Objects/GoalTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene Objects/GoalTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene Objects/Loot/Destructible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene Objects/Loot/Destructible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +37,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Objects/SceneType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Objects/ScenesManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DoFade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ParticlesManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/SceneType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/ScenesManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Objects/Loot/Destructible.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -52,6 +73,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/BEM2\Beat'Em'Up.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityProjects\Beat'Em'Up\BEU\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Program Files\2023.2.5f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\UnityProjects\Beat'Em'Up\BEU -debugCodeOptimization" />
@@ -109,6 +138,18 @@
       <workItem from="1718625417476" duration="2308000" />
       <workItem from="1718631069611" duration="4799000" />
       <workItem from="1718636933226" duration="3915000" />
+      <workItem from="1718715018178" duration="5507000" />
+      <workItem from="1718723579374" duration="856000" />
+      <workItem from="1718730004094" duration="1528000" />
+      <workItem from="1718743350776" duration="360000" />
+      <workItem from="1718744600588" duration="1920000" />
+      <workItem from="1718800010374" duration="5493000" />
+      <workItem from="1718809016677" duration="1861000" />
+      <workItem from="1718815497007" duration="406000" />
+      <workItem from="1718816596990" duration="2617000" />
+      <workItem from="1718820709002" duration="684000" />
+      <workItem from="1718821754620" duration="1900000" />
+      <workItem from="1719391243465" duration="3230000" />
     </task>
     <servers />
   </component>

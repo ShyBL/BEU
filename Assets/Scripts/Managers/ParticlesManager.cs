@@ -13,7 +13,7 @@ public enum FXType
 
 public class ParticlesManager : MonoBehaviour
 {
-    private static ParticlesManager instance;
+    public static ParticlesManager instance;
     [SerializeField] public ParticleSystem Footsteps;
     [SerializeField] public ParticleSystem Scanner;
     [SerializeField] public GameObject ScannerCone;

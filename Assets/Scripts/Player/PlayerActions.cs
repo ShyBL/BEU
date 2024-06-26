@@ -231,7 +231,7 @@ public partial class @PlayerActionAsset: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""54314b2b-1398-42c1-94d0-d2f04471c58b"",
-                    ""path"": ""<Keyboard>/o"",
+                    ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
