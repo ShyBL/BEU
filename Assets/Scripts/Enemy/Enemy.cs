@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
 {
     public EnemyStatemachine stateMachine;
     private NavMeshAgent agent;
-    // private Animator animator;
+    public Animator animator;
     public NavMeshAgent Agent { get => agent; }
     public Path path;
     public GameObject player;
@@ -23,11 +23,9 @@ public class Enemy : MonoBehaviour
     public int currentHealth;
     [SerializeField] private int hitDamage = 1 ;
     public int attacktime = 3;
-
-
     public bool IsAlive ;
-    private bool doSoundOnce = true;
-    
+    public bool sawPlayer ;
+
     
     //public Transfom attckpoint
     
@@ -39,14 +37,19 @@ public class Enemy : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         playerFunc = player.GetComponent<Player>();
         currentHealth = maxHealth;
-        
+        animator = GetComponentInChildren<Animator>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
         CanSeePlayer();
-        this.transform.LookAt(player.transform.position);
+        if (sawPlayer)
+        {
+            this.transform.LookAt(player.transform.position);
+        }
+        
     }
     public bool CanSeePlayer()
     {
@@ -66,12 +69,6 @@ public class Enemy : MonoBehaviour
                         if(hitInfo.transform.gameObject == player)
                         {
                             Debug.DrawRay(ray.origin, ray.direction * sightDistance);
-                           
-                            if(doSoundOnce)
-                            {
-                                SoundManager.PlaySound(soundType.ALERT);
-                                doSoundOnce = false;
-                            }
                              
                             return true;
                         }

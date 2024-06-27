@@ -11,8 +11,8 @@ public class PlayerDestroyState : PlayerGroundedState
 
     public override void Enter()
     {
-        Enter();
-        Debug.Log("Entered Pickup!");
+        base.Enter();
+        Debug.Log("Entered Destroy!");
         stateDuration = destroyTime;
         player.DisableMovement();
         player.StopInPlace();
@@ -22,12 +22,13 @@ public class PlayerDestroyState : PlayerGroundedState
         if (player.ItemDestroyer.destroyedItem.TryGetComponent(out Destructible destroyable))
         {
             destroyable.OnDestroyThis();
+            player.ItemDestroyer.ResetItemDestroyer();
         }
     }
 
     public override void Update()
     {
-        Update();
+        base.Update();
         if (stateDuration <= 0)
         {
             Debug.Log("Changed to Idle");
@@ -38,7 +39,7 @@ public class PlayerDestroyState : PlayerGroundedState
 
     public override void Exit()
     {
-        Exit();
+        base.Exit();
         player.EnableMovement();
         
         ParticlesManager.StopFXByType(FXType.Pickup);

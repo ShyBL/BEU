@@ -40,6 +40,10 @@ public class ParticlesManager : MonoBehaviour
                 instance.ScannerCone.SetActive(true);
                 instance.Scanner.Play();
                 break;
+            case FXType.HealthPickup:
+                break;
+            case FXType.PointsPickup:
+                break;
             default:
                 throw new ArgumentOutOfRangeException(nameof(type), type, null);
         }

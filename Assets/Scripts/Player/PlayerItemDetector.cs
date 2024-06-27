@@ -16,10 +16,15 @@ public class PlayerItemDetector : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.TryGetComponent(out Pickup pickup)) 
+        if (other.TryGetComponent(out Pickup pickup))
         {
-            detectedItem = null;
-            itemDetected = false;
+            ResetItemDetector();
         }
+    }
+
+    public void ResetItemDetector()
+    {
+        detectedItem = null;
+        itemDetected = false;
     }
 }

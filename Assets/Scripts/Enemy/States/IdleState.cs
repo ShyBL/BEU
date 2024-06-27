@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IdleState : BaseState
 {
-    bool isTrigger = false;
+    bool isTrigger = true;
     public override void Enter()
     {
        
@@ -17,7 +17,7 @@ public class IdleState : BaseState
 
     public override void Perform()
     {
-        if (isTrigger == true)
+        if (isTrigger)
         {
             if (enemy.CanSeePlayer())
             {

@@ -64,7 +64,7 @@ public class PlayerGroundedState : PlayerState
             
         else if (IsOverDestroyable())
         {
-            stateMachine.ChangeState(stateMachine.PickUpState);
+            stateMachine.ChangeState(stateMachine.DestroyState);
         }
         else
         {

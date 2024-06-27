@@ -48,6 +48,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
+  pickups:
+  - {fileID: 1228296038449749505}
+  - {fileID: 7741612237375468550}
+  - {fileID: 5630363816110339359}
+  pickupHealth: {fileID: 7741612237375468550}
+  pickupPoints: {fileID: 1228296038449749505}
+  pickupEnergy: {fileID: 5630363816110339359}
 --- !u!1001 &4121925363297289977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -126,6 +133,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8961257143777519964, guid: d9b62dd00616f7e499c81c62d41f94ad, type: 3}
   m_PrefabInstance: {fileID: 4121925363297289977}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5630363816110339359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8581353213544510438, guid: d9b62dd00616f7e499c81c62d41f94ad, type: 3}
+  m_PrefabInstance: {fileID: 4121925363297289977}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4638823881889323118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -188,6 +200,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2324985792414889682, guid: 633ccd7677fa62448a5622a6b119b229, type: 3}
   m_PrefabInstance: {fileID: 4638823881889323118}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7741612237375468550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102930588228152424, guid: 633ccd7677fa62448a5622a6b119b229, type: 3}
+  m_PrefabInstance: {fileID: 4638823881889323118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6571131721918587390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -245,6 +262,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06871bd27f6b791409455ab6843f7878, type: 3}
+--- !u!1 &1228296038449749505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5348747767241195519, guid: 06871bd27f6b791409455ab6843f7878, type: 3}
+  m_PrefabInstance: {fileID: 6571131721918587390}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1891538307479848123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4715622225420707141, guid: 06871bd27f6b791409455ab6843f7878, type: 3}

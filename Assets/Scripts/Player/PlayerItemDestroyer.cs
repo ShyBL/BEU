@@ -16,10 +16,15 @@ public class PlayerItemDestroyer : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Pickup")) 
+        if (other.TryGetComponent(out Destructible destroyable))
         {
-            destroyedItem = null;
-            itemDetected = false;
+            ResetItemDestroyer();
         }
+    }
+    
+    public void ResetItemDestroyer()
+    {
+        destroyedItem = null;
+        itemDetected = false;
     }
 }

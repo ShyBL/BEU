@@ -22,6 +22,7 @@ public class PlayerPickUpState : PlayerGroundedState
         if (player.ItemDetector.detectedItem.TryGetComponent(out Pickup pickup))
         {
             pickup.OnPickUp();
+            player.ItemDetector.ResetItemDetector();
         }
     }
 

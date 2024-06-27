@@ -4,10 +4,11 @@ using UnityEngine;
 public class Destructible : MonoBehaviour
 {
     private Animator animator;
-
+    [SerializeField] private GameObject pickup;
     private void Awake()
     {
         animator = GetComponentInChildren<Animator>();
+        pickup.SetActive(false);
     }
 
     public void OnDestroyThis()
@@ -19,6 +20,7 @@ public class Destructible : MonoBehaviour
 
     void DestroyThis()
     {
-        Destroy(this);
+        pickup.SetActive(true);
+        //Destroy(this);
     }
 }

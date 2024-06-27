@@ -67,7 +67,7 @@ public class PlayerMoveState : PlayerGroundedState
     {
         while (true)
         {
-            if (moveInputVector != Vector3.zero && player.isGrounded())
+            if (moveInputVector != Vector3.zero)// && player.isGrounded())
             {
                 SoundManager.PlaySound(soundType.WALKING);
             }

@@ -1,5 +1,6 @@
 public enum PickupType
 {
     Health,
-    Points
+    Points,
+    Energy
 }
