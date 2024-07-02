@@ -29,6 +29,7 @@ public class EnemyStateMachine : MonoBehaviour
         }
         // change to new state
         activeState = newState;
+        
         //fail-safe null check to make sure new state wasn't null
         if (activeState != null )
         {
@@ -41,7 +42,7 @@ public class EnemyStateMachine : MonoBehaviour
     }
     public void Initialized()
     {
-        // setup defultState;
+        // setup default State;
         ChangeState(new IdleState());
     }
     

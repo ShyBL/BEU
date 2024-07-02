@@ -78,15 +78,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateMachine: {fileID: 0}
+  animator: {fileID: 0}
   path: {fileID: 0}
   player: {fileID: 0}
-  sightDistance: 10
+  sightDistance: 50
   fieldOfView: 300
   maxHealth: 15
   currentHealth: 0
   hitDamage: 1
   attacktime: 3
   IsAlive: 0
+  sawPlayer: 0
 --- !u!114 &4523330966981494309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,7 +115,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 0.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1

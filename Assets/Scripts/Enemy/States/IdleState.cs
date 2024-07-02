@@ -17,9 +17,7 @@ public class IdleState : BaseState
         {
             if (enemy.CanSeePlayer())
             {
-                //enemyStatemachine.ChangeState(new AttackState());
                 EnemyStateMachine.ChangeState(new MoveState());
-
             }
         }
     }

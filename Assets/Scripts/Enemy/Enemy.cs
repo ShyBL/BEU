@@ -69,7 +69,7 @@ public class Enemy : MonoBehaviour
                         if(hitInfo.transform.gameObject == player)
                         {
                             Debug.DrawRay(ray.origin, ray.direction * sightDistance);
-                             
+                            sawPlayer = true;
                             return true;
                         }
                     }

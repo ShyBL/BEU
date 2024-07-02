@@ -39,11 +39,26 @@ public class FightTrigger : MonoBehaviour
         {
             cam.Follow = place;
         }
-        
-        for (int i = 0; i < enemies.Length; i++)
+
+        foreach (var enemy in enemies)
         {
-            enemies[i].stateMachine.ChangeState(new AttackState());
+            if (enemy.sawPlayer)
+            {
+                for (int i = 0; i < enemies.Length; i++)
+                {
+                    if (enemy != enemies[i])
+                    {
+                        enemies[i].stateMachine.ChangeState(new MoveState());
+                    }
+                }
+                break;
+            }
         }
+        
+        // for (int i = 0; i < enemies.Length; i++)
+        // {
+        //     enemies[i].stateMachine.ChangeState(new AttackState());
+        // }
        
     }
     private bool CheckEnemies()
