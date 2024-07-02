@@ -4,7 +4,7 @@ public abstract class BaseState
     //Instance of EnemyClass
     public Enemy enemy;
     //Instance of Statemachine class
-    public EnemyStatemachine enemyStatemachine;
+    public EnemyStateMachine EnemyStateMachine;
     
 
     public abstract void Enter();

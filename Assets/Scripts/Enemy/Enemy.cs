@@ -7,7 +7,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    public EnemyStatemachine stateMachine;
+    public EnemyStateMachine stateMachine;
     private NavMeshAgent agent;
     public Animator animator;
     public NavMeshAgent Agent { get => agent; }
@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
     public int maxHealth = 15;
     public int currentHealth;
     [SerializeField] private int hitDamage = 1 ;
-    public int attacktime = 3;
+    public int attacktime = 2;
     public bool IsAlive ;
     public bool sawPlayer ;
 
@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
     
     void Awake()
     {
-        stateMachine = GetComponent<EnemyStatemachine>();
+        stateMachine = GetComponent<EnemyStateMachine>();
         agent = GetComponent<NavMeshAgent>();
         stateMachine.Initialized();
         player = GameObject.FindGameObjectWithTag("Player");

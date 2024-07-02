@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyStatemachine : MonoBehaviour
+public class EnemyStateMachine : MonoBehaviour
 {
     public BaseState activeState;
     // Start is called before the first frame update
@@ -33,7 +33,7 @@ public class EnemyStatemachine : MonoBehaviour
         if (activeState != null )
         {
             //Setup new state
-            activeState.enemyStatemachine = this;
+            activeState.EnemyStateMachine = this;
             //assign state enemy class
             activeState.enemy = GetComponent<Enemy>();
             activeState.Enter();
@@ -43,5 +43,16 @@ public class EnemyStatemachine : MonoBehaviour
     {
         // setup defultState;
         ChangeState(new IdleState());
+    }
+    
+    Rect rect = new Rect(0, 0, 300, 100);
+    Vector3 offset = new Vector3(0f, 0f, 0.5f);
+    
+    void OnGUI()
+    {
+        Vector3 point = Camera.main.WorldToScreenPoint(transform.position + offset);
+        rect.x = point.x;
+        rect.y = Screen.height - point.y - rect.height; // bottom left corner set to the 3D point
+        GUI.Label(rect, activeState.ToString()); // display its name, or other string
     }
 }

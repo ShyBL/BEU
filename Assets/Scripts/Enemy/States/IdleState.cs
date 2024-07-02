@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class IdleState : BaseState
 {
     bool isTrigger = true;
@@ -21,11 +17,10 @@ public class IdleState : BaseState
         {
             if (enemy.CanSeePlayer())
             {
-                enemyStatemachine.ChangeState(new AttackState());
+                //enemyStatemachine.ChangeState(new AttackState());
+                EnemyStateMachine.ChangeState(new MoveState());
+
             }
         }
-       
     }
-
-    
 }

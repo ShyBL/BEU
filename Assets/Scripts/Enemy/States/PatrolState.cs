@@ -20,7 +20,7 @@ public class PatrolState : BaseState
         PatrolCycle();
         if (enemy.CanSeePlayer())
         {
-            enemyStatemachine.ChangeState(new AttackState());
+            EnemyStateMachine.ChangeState(new AttackState());
         }
     }
     public void PatrolCycle()
