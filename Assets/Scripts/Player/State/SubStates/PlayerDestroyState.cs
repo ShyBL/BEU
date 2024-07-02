@@ -7,7 +7,7 @@ public class PlayerDestroyState : PlayerGroundedState
     }
 
     [Header(" Settings ")]
-    private float destroyTime = 1f;
+    private float destroyTime = 1.21f;
 
     public override void Enter()
     {
@@ -17,13 +17,7 @@ public class PlayerDestroyState : PlayerGroundedState
         player.DisableMovement();
         player.StopInPlace();
         
-        ParticlesManager.PlayFXByType(FXType.Pickup);
 
-        if (player.ItemDestroyer.destroyedItem.TryGetComponent(out Destructible destroyable))
-        {
-            destroyable.OnDestroyThis();
-            player.ItemDestroyer.ResetItemDestroyer();
-        }
     }
 
     public override void Update()
@@ -31,6 +25,12 @@ public class PlayerDestroyState : PlayerGroundedState
         base.Update();
         if (stateDuration <= 0)
         {
+            if (player.ItemDestroyer.destroyedItem.TryGetComponent(out Destructible destroyable))
+            {
+                destroyable.OnDestroyThis();
+                player.ItemDestroyer.ResetItemDestroyer();
+            }
+            
             Debug.Log("Changed to Idle");
             stateMachine.ChangeState(stateMachine.IdleState);
         }
@@ -41,7 +41,5 @@ public class PlayerDestroyState : PlayerGroundedState
     {
         base.Exit();
         player.EnableMovement();
-        
-        ParticlesManager.StopFXByType(FXType.Pickup);
     }
 }

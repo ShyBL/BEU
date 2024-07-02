@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     [SerializeField] private int MaxHealth;
     [SerializeField] private int HitDamage = 5;
 
-    private int currentHealth;
+    [SerializeField] private int currentHealth;
     public Vector3 moveInputVector { get; private set; }
     public int facingDirection { get; private set; }
     public Transform attackPoint;
