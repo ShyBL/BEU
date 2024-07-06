@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -59,7 +55,6 @@ public class Player : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
-
     }
 
     void Start()
@@ -71,10 +66,6 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if(_inputManager)
-        {
-
-        }
         _stateMachine.currentState.Update();
         MovementHandler();
     }
@@ -88,7 +79,6 @@ public class Player : MonoBehaviour
             _playerPhysx.HandleMovement(moveInputVector, _moveSpeed);
         }
         
-
     }
 
     public void Flip()
@@ -109,9 +99,8 @@ public class Player : MonoBehaviour
                 shape.rotation = new Vector3(0, -90, 0);
             }
             
-            
         }
-            
+        
     }
 
     public void Jump() => _playerPhysx.Jump(moveInputVector, _airVelocity, _jumpForce);
@@ -122,31 +111,30 @@ public class Player : MonoBehaviour
     // Physx Getters
     public Vector3 velocity() => _playerPhysx.CurrentVelocity();
     public bool isGrounded() => _playerPhysx.IsGrounded;
-
-    void OnGUI()
-    {
-        Vector3 point = Camera.main.WorldToScreenPoint(transform.position + offset);
-        rect.x = point.x;
-        rect.y = Screen.height - point.y - rect.height; // bottom left corner set to the 3D point
-        GUI.Label(rect, _stateMachine.currentState.ToString()); // display its name, or other string
-    }
+    
+    // TODO: Decouple Combat
     public void Attack()
     {
-        Debug.Log("Player Attack");
-        // start animation
+        SoundManager.PlaySound(soundType.ATTACK);
+
+        Debug.Log("Player Attacking");
+
+        // Gets all enemies around, and calls Take Damage on each
         Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange,enemyLayer);
         foreach (Collider enemy in hitEnemies)
         {
-            //damage them
-            enemy.GetComponent<Enemy>().TakeDamage(HitDamage);
-            Debug.Log("We hit" + enemy.name);
+            var enemyScript = enemy.gameObject.GetComponent<Enemy>();
+            if (enemyScript.IsAlive)
+            {
+                enemyScript.TakeDamage(HitDamage);
+                Debug.Log("We hit" + enemy.name);
+            }
         }
     }
 
     public void GotHit(int damage)
     {
         currentHealth -= damage;
-        //play animation
         if (currentHealth <= 0)
         {
             Die();
@@ -155,14 +143,22 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
-        //die animation
-        //disable object
-        //Debug.Log("Die!!!!");
+        // TODO: respawn
+        Debug.Log("Player died");
     }
+    
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
             return;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    
+    private void OnGUI()
+    {
+        Vector3 point = Camera.main.WorldToScreenPoint(transform.position + offset);
+        rect.x = point.x;
+        rect.y = Screen.height - point.y - rect.height; // bottom left corner set to the 3D point
+        GUI.Label(rect, _stateMachine.currentState.ToString()); // display its name, or other string
     }
 }

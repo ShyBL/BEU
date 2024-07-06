@@ -3787,7 +3787,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 602174271}
   m_OnClick:
     m_PersistentCalls:
@@ -10196,7 +10196,7 @@ MonoBehaviour:
   selection: {fileID: 5689718397028469715}
   camFollow: {fileID: 1152412891}
   button: {fileID: 1746827933}
-  _sceneType: 0
+  _sceneType: 6
 --- !u!114 &1746827933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10236,7 +10236,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1746827934}
   m_OnClick:
     m_PersistentCalls:
@@ -11849,7 +11849,7 @@ MonoBehaviour:
   selection: {fileID: 5689718396944208250}
   camFollow: {fileID: 1152412891}
   button: {fileID: 1965162459}
-  _sceneType: 5
+  _sceneType: 0
 --- !u!114 &1965162459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11889,7 +11889,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1965162460}
   m_OnClick:
     m_PersistentCalls:

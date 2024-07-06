@@ -6,47 +6,29 @@ public class MoveState : BaseState
     
     public override void Enter()
     {
-        //enemy.Agent.SetDestination(enemy.player.transform.position);
-        enemy.Agent.isStopped = false;
+        Enemy.Agent.isStopped = false; // Make sure the Navmesh Agent is not moving before Preform
+        
         SoundManager.PlaySound(soundType.ALERT);
-        enemy.animator.Play("player_move");
+        
+        Enemy.animator.Play("player_move");
     }
 
     public override void Exit()
     {
-       
     }
 
     public override void Perform()
     {
-        if (Vector3.Distance(enemy.transform.position, enemy.player.transform.position) < 2f)
+        if (Vector3.Distance(Enemy.transform.position, Enemy.player.transform.position) < 2f)
         {
-            enemy.Agent.isStopped = true;
+            Enemy.Agent.isStopped = true; // Stops Navmesh Agent
+            
             EnemyStateMachine.ChangeState(new AttackState());
         }
         else
         {
-            enemy.Agent.SetDestination(enemy.player.transform.position);
+            // If Agent is not close enough, keep moving
+            Enemy.Agent.SetDestination(Enemy.player.transform.position);
         }
-        
-        // if (enemy.CanSeePlayer())
-        // {
-        //     if (Vector3.Distance(enemy.transform.position, enemy.player.transform.position) > 1f)
-        //     {
-        //         enemy.Agent.SetDestination(enemy.player.transform.position);
-        //
-        //         if (doOnce)
-        //         {
-        //             SoundManager.PlaySound(soundType.ALERT);
-        //             enemy.animator.Play("player_move");
-        //             doOnce = false;
-        //         }
-        //     }
-        //     else
-        //     {
-        //         //enemy.Agent.isStopped = true;
-        //         EnemyStateMachine.ChangeState(new AttackState());
-        //     }
-        // }
     }
 }

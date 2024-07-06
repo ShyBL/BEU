@@ -9,9 +9,9 @@ public class ScenesManager : MonoBehaviour
     public static SceneType selectedScene;
 
     public bool isEgyptLevelDone;
-    public bool isItalyLevelDone;
-    public bool isFranceLevelDone;
-    public bool isNewYorkLevelDone;
+    public bool isItalyLevelDone = true;
+    public bool isFranceLevelDone = true;
+    public bool isNewYorkLevelDone = true;
     
     private void Awake()
     {

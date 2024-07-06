@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerVisualizer : MonoBehaviour
 {
-    [SerializeField] private Animator _animator;
+    [SerializeField] public Animator _animator;
     private static string Y_BLEND_ANIMATION = "yVelocity";
     public void PlayAnimation(string animName)
     {
@@ -14,5 +12,11 @@ public class PlayerVisualizer : MonoBehaviour
     public void SetYBlend(float value)
     {
         _animator.SetFloat(Y_BLEND_ANIMATION, value);
+    }
+
+    public float GetAnimationLength(string animName)
+    {
+        
+        return 0;
     }
 }

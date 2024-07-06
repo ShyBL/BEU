@@ -13,6 +13,8 @@ public class PlayerState
     [Header(" Settings ")]
     protected float stateDuration;
     private string _animName;
+    protected float animLength;
+
     protected Vector3 moveInputVector = Vector3.zero;
 
 

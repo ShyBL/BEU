@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
     public GameObject player;
     private Player playerFunc;
     public float sightDistance = 30f;
-   // public float attckDistance = 1f;
+    // public float attckDistance = 1f;
     public float fieldOfView = 300f;
 
     [Header("Stats")]
@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
     public int currentHealth;
     [SerializeField] private int hitDamage = 1 ;
     public int attacktime = 2;
-    public bool IsAlive ;
+    public bool IsAlive;
     public bool sawPlayer ;
 
     
@@ -31,6 +31,7 @@ public class Enemy : MonoBehaviour
     
     void Awake()
     {
+        IsAlive = true;
         stateMachine = GetComponent<EnemyStateMachine>();
         agent = GetComponent<NavMeshAgent>();
         stateMachine.Initialized();
@@ -45,7 +46,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         CanSeePlayer();
-        if (sawPlayer)
+        if (sawPlayer && IsAlive)
         {
             this.transform.LookAt(player.transform.position);
         }
@@ -80,33 +81,30 @@ public class Enemy : MonoBehaviour
     }
     public void AttackPlayer()
     {
-        // Detect if player in range
-            Debug.Log("Attack" + hitDamage);
-        // start animation
+        Debug.Log("Attack" + hitDamage);
+        
         //Collider hitPlayer = Physics.OverlapSphere(atttackPoint.position,attckDistance)
-        //damage
         playerFunc.GotHit(hitDamage);
-   
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        //play animation
-        if (currentHealth <= 0 )
+        
+        animator.Play("hurt_state");
+        
+        if (currentHealth <= 0)
         {
+            IsAlive = false;
             Die();
         }
     }
 
     private void Die()
     {
-        //die animation
-        //disable object
-        
-        this.gameObject.SetActive(false);
+        stateMachine.ChangeState(new DeadState());
+
         Debug.Log(this.name + " DEAD");
-        IsAlive = false;
-        this.enabled = false;
+        //this.enabled = false;
     }
 }

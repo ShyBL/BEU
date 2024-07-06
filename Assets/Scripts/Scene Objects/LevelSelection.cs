@@ -57,9 +57,12 @@ public class LevelSelection : MonoBehaviour
 
     public void CameraToSelection()
     {
-        camFollow.transform.DOMove(selection.transform.position, 1).OnComplete(() =>
+        if (button.interactable)
         {
-            ScenesManager.LoadLevel(_sceneType);
-        });
+            camFollow.transform.DOMove(selection.transform.position, 1).OnComplete(() =>
+            {
+                ScenesManager.LoadLevel(_sceneType);
+            });
+        }
     }
 }

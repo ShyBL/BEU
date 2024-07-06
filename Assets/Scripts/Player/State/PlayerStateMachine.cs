@@ -44,6 +44,11 @@ public class PlayerStateMachine
 
     }
 
+    private float GetAnimationLength(string animName)
+    {
+        return _player.Visualizer.GetAnimationLength(animName);
+    }
+
     private void InitPlayer()
     {
         _player = Player.Instance;

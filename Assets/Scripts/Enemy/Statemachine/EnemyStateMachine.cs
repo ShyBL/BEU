@@ -36,7 +36,7 @@ public class EnemyStateMachine : MonoBehaviour
             //Setup new state
             activeState.EnemyStateMachine = this;
             //assign state enemy class
-            activeState.enemy = GetComponent<Enemy>();
+            activeState.Enemy = GetComponent<Enemy>();
             activeState.Enter();
         }
     }

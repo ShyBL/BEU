@@ -1,6 +1,7 @@
 public class IdleState : BaseState
 {
-    bool isTrigger = true;
+    bool _isTriggered = true;
+    
     public override void Enter()
     {
        
@@ -13,12 +14,11 @@ public class IdleState : BaseState
 
     public override void Perform()
     {
-        if (isTrigger)
+        if (!_isTriggered) return;
+        
+        if (Enemy.CanSeePlayer())
         {
-            if (enemy.CanSeePlayer())
-            {
-                EnemyStateMachine.ChangeState(new MoveState());
-            }
+            EnemyStateMachine.ChangeState(new MoveState());
         }
     }
 }
