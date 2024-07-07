@@ -84,7 +84,7 @@ public class Enemy : MonoBehaviour
         Debug.Log("Attack" + hitDamage);
         
         //Collider hitPlayer = Physics.OverlapSphere(atttackPoint.position,attckDistance)
-        playerFunc.GotHit(hitDamage);
+        playerFunc.PlayerCombat.GotHit(hitDamage);
     }
 
     public void TakeDamage(int damage)

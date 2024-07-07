@@ -1,36 +1,38 @@
+using System;
+using Cinemachine;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     public static Player Instance;
-    [Header(" Movement ")]
+    [Foldout(" Components ",true,false,true)]
+    [SerializeField] private PlayerVisualizer _visualizer; public PlayerVisualizer Visualizer { get => _visualizer; }
+    [SerializeField] private PlayerPhysx _playerPhysx; public PlayerPhysx Physx { get => _playerPhysx; }
+    [SerializeField] private PlayerInputManager _inputManager; public PlayerInputManager InputManager { get => _inputManager; }
+    [SerializeField] private PlayerItemDetector _playerItemDetector; public PlayerItemDetector ItemDetector { get => _playerItemDetector; }
+    [SerializeField] private PlayerItemDestroyer _playerItemDestroyer; public PlayerItemDestroyer ItemDestroyer { get => _playerItemDestroyer; }
+    [SerializeField] private PlayerCombat _playerCombat; public PlayerCombat PlayerCombat { get => _playerCombat; }
+
+    private PlayerStateMachine _stateMachine; public PlayerStateMachine StateMachine { get => _stateMachine; }
+    
+    [Foldout(" General Settings ",true,false,true)]
+    [SerializeField] private bool is3DMode;
+
+    [SerializeField] public CinemachineVirtualCamera mainVCamera;
+    
+    [Foldout("Stats",true,false,true)]
+
+    public Vector3 moveInputVector { get; private set; }
+    public int facingDirection { get; private set; }
+    
+
+    
+    [Foldout(" Movement ",true,false,true)]
     [SerializeField] private float _moveSpeed = 8f; public float moveSpeed { get => _moveSpeed; }
     [SerializeField] private float _airVelocity = 8f; public float airVelocity { get => _airVelocity; }
     [SerializeField] private float _jumpForce = 15; public float jumpForce { get => _jumpForce; }
     [SerializeField] private bool _canMove = true; public bool canMove { get => _canMove; }
-
-    [Header(" Components ")]
-    [SerializeField] private PlayerVisualizer _visualizer; public PlayerVisualizer Visualizer { get => _visualizer; }
-    [SerializeField] private PlayerPhysx _playerPhysx; public PlayerPhysx Physx { get => _playerPhysx; }
-    [SerializeField] private PlayerStateMachine _stateMachine; public PlayerStateMachine StateMachine { get => _stateMachine; }
-    [SerializeField] private PlayerInputManager _inputManager; public PlayerInputManager InputManager { get => _inputManager; }
-    [SerializeField] private PlayerItemDetector _playerItemDetector; public PlayerItemDetector ItemDetector { get => _playerItemDetector; }
-    [SerializeField] private PlayerItemDestroyer _playerItemDestroyer; public PlayerItemDestroyer ItemDestroyer { get => _playerItemDestroyer; }
-
     
-    [Header(" General Settings ")]
-    [SerializeField] private bool is3DMode;
-
-    [Header("Stats")]
-    [SerializeField] private int MaxHealth;
-    [SerializeField] private int HitDamage = 5;
-
-    [SerializeField] private int currentHealth;
-    public Vector3 moveInputVector { get; private set; }
-    public int facingDirection { get; private set; }
-    public Transform attackPoint;
-    public float attackRange = 1f;
-    public LayerMask enemyLayer;
 
     Rect rect = new Rect(0, 0, 300, 100);
     Vector3 offset = new Vector3(0f, 0f, 0.5f);
@@ -39,14 +41,14 @@ public class Player : MonoBehaviour
     {
         _inputManager.onMove += MovementHandler;
         _inputManager.onMoveStopped += MovementHandler;
-        _inputManager.onAttack += Attack;
+        _inputManager.onAttack += _playerCombat.Attack;
     }
 
     private void OnDisable()
     {
         _inputManager.onMove -= MovementHandler;
         _inputManager.onMoveStopped -= MovementHandler;
-        _inputManager.onAttack -= Attack;
+        _inputManager.onAttack -= _playerCombat.Attack;
     }
 
     private void Awake()
@@ -59,7 +61,6 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        currentHealth = MaxHealth;
         _stateMachine = new PlayerStateMachine();
         _stateMachine.Initialize();
     }
@@ -83,7 +84,6 @@ public class Player : MonoBehaviour
 
     public void Flip()
     {
-
         if (moveInputVector.x != 0)
         {
             facingDirection = moveInputVector.x > 0 ? 1 : -1;
@@ -98,9 +98,7 @@ public class Player : MonoBehaviour
             {
                 shape.rotation = new Vector3(0, -90, 0);
             }
-            
         }
-        
     }
 
     public void Jump() => _playerPhysx.Jump(moveInputVector, _airVelocity, _jumpForce);
@@ -112,48 +110,7 @@ public class Player : MonoBehaviour
     public Vector3 velocity() => _playerPhysx.CurrentVelocity();
     public bool isGrounded() => _playerPhysx.IsGrounded;
     
-    // TODO: Decouple Combat
-    public void Attack()
-    {
-        SoundManager.PlaySound(soundType.ATTACK);
-
-        Debug.Log("Player Attacking");
-
-        // Gets all enemies around, and calls Take Damage on each
-        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange,enemyLayer);
-        foreach (Collider enemy in hitEnemies)
-        {
-            var enemyScript = enemy.gameObject.GetComponent<Enemy>();
-            if (enemyScript.IsAlive)
-            {
-                enemyScript.TakeDamage(HitDamage);
-                Debug.Log("We hit" + enemy.name);
-            }
-        }
-    }
-
-    public void GotHit(int damage)
-    {
-        currentHealth -= damage;
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    private void Die()
-    {
-        // TODO: respawn
-        Debug.Log("Player died");
-    }
-    
-    private void OnDrawGizmosSelected()
-    {
-        if (attackPoint == null)
-            return;
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-    }
-    
+#if !PLATFORM_STANDALONE
     private void OnGUI()
     {
         Vector3 point = Camera.main.WorldToScreenPoint(transform.position + offset);
@@ -161,4 +118,6 @@ public class Player : MonoBehaviour
         rect.y = Screen.height - point.y - rect.height; // bottom left corner set to the 3D point
         GUI.Label(rect, _stateMachine.currentState.ToString()); // display its name, or other string
     }
+#endif
+    
 }

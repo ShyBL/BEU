@@ -13,6 +13,7 @@ public class FightTrigger : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        cam = player.gameObject.GetComponent<Player>().mainVCamera;
     }
     private void Update()
     {
@@ -24,17 +25,17 @@ public class FightTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //chack if only player set in
+        // check if only player set in
         if (!string.IsNullOrEmpty(tagFilter) && !other.gameObject.CompareTag(tagFilter))
             return;
         
-        // genarate walls
+        // generate walls
         for (int i = 0; i < walls.Length; i++)
         {
             walls[i].gameObject.SetActive(true);
         }
         
-        // set camre in place
+        // set camera in place
         if(cam.Follow != null)
         {
             cam.Follow = place;
