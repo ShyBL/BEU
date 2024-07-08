@@ -19572,7 +19572,7 @@ Transform:
   m_GameObject: {fileID: 7751304656022108021}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 1, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25618,8 +25618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbcaa12cb5aa406c8645289bbc06d978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 10
-  HitDamage: 5
+  MaxHealth: 100
+  HitDamage: 10
   currentHealth: 0
   attackPoint: {fileID: 1368752999937743889}
   attackRange: 1

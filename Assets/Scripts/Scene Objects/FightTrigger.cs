@@ -9,91 +9,103 @@ public class FightTrigger : MonoBehaviour
     [SerializeField] private Transform place;
     [SerializeField] private Enemy[] enemies;
     private GameObject player;
-
+    private bool doOnce = true;
+    
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         cam = player.gameObject.GetComponent<Player>().mainVCamera;
     }
+    
     private void Update()
     {
         if (CheckEnemies())
         {
-            ResetWalls();
+            ResetTriggered();
         }
+        
+        TriggerEnemies();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider collider)
     {
-        // check if only player set in
-        if (!string.IsNullOrEmpty(tagFilter) && !other.gameObject.CompareTag(tagFilter))
-            return;
-        
-        // generate walls
-        for (int i = 0; i < walls.Length; i++)
-        {
-            walls[i].gameObject.SetActive(true);
-        }
-        
-        // set camera in place
-        if(cam.Follow != null)
-        {
-            cam.Follow = place;
-        }
+        if (!IsPlayer(collider)) return;
 
-        foreach (var enemy in enemies)
+        GenerateWalls(true);
+
+        SetCameraForFollowScene(place);
+
+        TriggerEnemies();
+    }
+
+    private void TriggerEnemies()
+    {
+        if (doOnce)
         {
-            if (enemy.sawPlayer)
+            foreach (var enemy in enemies)
             {
-                for (int i = 0; i < enemies.Length; i++)
+                // Exit the loop once one enemy has been found to have seen the player
+                if (enemy.sawPlayer)
                 {
-                    if (enemy != enemies[i])
+                    foreach (var otherEnemy in enemies)
                     {
-                        enemies[i].stateMachine.ChangeState(new MoveState());
+                        if (otherEnemy != enemy)
+                        {
+                            otherEnemy.stateMachine.ChangeState(new MoveState());
+                        }
                     }
+
+                    doOnce = false;
+                    break;
                 }
-                break;
             }
         }
         
-        // for (int i = 0; i < enemies.Length; i++)
-        // {
-        //     enemies[i].stateMachine.ChangeState(new AttackState());
-        // }
-       
     }
+
+    private void SetCameraForFollowScene(Transform followTransform)
+    {
+        if (cam.Follow != null)
+        {
+            cam.Follow = followTransform;
+        }
+    }
+
+    private void GenerateWalls(bool isTriggered)
+    {
+        foreach (var wall in walls)
+        {
+            wall.gameObject.SetActive(isTriggered);
+        }
+    }
+
+    private bool IsPlayer(Collider other)
+    {
+        if (!string.IsNullOrEmpty(tagFilter) && other.gameObject.CompareTag(tagFilter))
+            return true;
+        return false;
+    }
+
     private bool CheckEnemies()
     {
-        int enemiesAlive = enemies.Length;
-        for (int i = 0;i < enemies.Length; i++)
+        var enemiesAlive = enemies.Length;
+        
+        foreach (var enemy in enemies)
         {
-            if (enemies[i] != null)
+            if (enemy != null)
             {
-                if (!enemies[i].IsAlive)
+                if (!enemy.IsAlive)
                 {
                     enemiesAlive--;
                 }
             }
         }
-        if(enemiesAlive <= 0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return enemiesAlive <= 0;
     } 
-    private void ResetWalls()
+    private void ResetTriggered()
     {
-        for (int i = 0; i < walls.Length; i++)
-        {
-            walls[i].gameObject.SetActive(false);
-        }
-        if (cam.Follow != null)
-        {
-            cam.Follow = player.transform;
-        }
+        GenerateWalls(false);
 
+        SetCameraForFollowScene(player.transform);
     }
 }

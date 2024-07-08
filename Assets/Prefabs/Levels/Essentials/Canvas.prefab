@@ -1185,6 +1185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2666098610822784203}
   - component: {fileID: 1105085421796917448}
+  - component: {fileID: 4517166511289518597}
   m_Layer: 5
   m_Name: Player Holder
   m_TagString: Untagged
@@ -1223,6 +1224,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4577153579255517718}
   m_CullTransparentMesh: 1
+--- !u!114 &4517166511289518597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4577153579255517718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1aacbfa18217449b2571ca34ea6b73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSlider: {fileID: 4503616063395583481}
 --- !u!1 &4801976373933078031
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,6 +2237,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthBar_LR
       objectReference: {fileID: 0}
+    - target: {fileID: 3687905193769816575, guid: 8335bd2e35e11194ca8ae3a7b865159a, type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687905193769816575, guid: 8335bd2e35e11194ca8ae3a7b865159a, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3961790507629853686, guid: 8335bd2e35e11194ca8ae3a7b865159a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2349,6 +2371,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3961790507629853686, guid: 8335bd2e35e11194ca8ae3a7b865159a, type: 3}
   m_PrefabInstance: {fileID: 985757018869990406}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4503616063395583481 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3687905193769816575, guid: 8335bd2e35e11194ca8ae3a7b865159a, type: 3}
+  m_PrefabInstance: {fileID: 985757018869990406}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8516609210679693717
 PrefabInstance:
   m_ObjectHideFlags: 0

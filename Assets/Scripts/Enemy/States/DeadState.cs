@@ -15,6 +15,6 @@ public class DeadState : BaseState
     {
         if (!_isTriggered) return;
         
-        Enemy.Agent.isStopped = true; // Stops Navmesh Agent
+//        Enemy.Agent.isStopped = true; // Stops Navmesh Agent
     }
 }

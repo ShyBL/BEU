@@ -103,8 +103,12 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         stateMachine.ChangeState(new DeadState());
-
+        
+        var obj = gameObject.GetComponent<BoxCollider>();
+        obj.enabled = false;
+        agent.enabled = false;
+        
         Debug.Log(this.name + " DEAD");
-        //this.enabled = false;
+        
     }
 }

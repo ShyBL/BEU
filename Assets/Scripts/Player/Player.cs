@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public static Player Instance;
-    [Foldout(" Components ",true,false,true)]
+    [Header(" Components ")]
     [SerializeField] private PlayerVisualizer _visualizer; public PlayerVisualizer Visualizer { get => _visualizer; }
     [SerializeField] private PlayerPhysx _playerPhysx; public PlayerPhysx Physx { get => _playerPhysx; }
     [SerializeField] private PlayerInputManager _inputManager; public PlayerInputManager InputManager { get => _inputManager; }
@@ -15,19 +15,16 @@ public class Player : MonoBehaviour
 
     private PlayerStateMachine _stateMachine; public PlayerStateMachine StateMachine { get => _stateMachine; }
     
-    [Foldout(" General Settings ",true,false,true)]
+    [Header(" General Settings ")]
     [SerializeField] private bool is3DMode;
-
     [SerializeField] public CinemachineVirtualCamera mainVCamera;
     
-    [Foldout("Stats",true,false,true)]
-
+    [Header("Stats")]
     public Vector3 moveInputVector { get; private set; }
     public int facingDirection { get; private set; }
     
-
     
-    [Foldout(" Movement ",true,false,true)]
+    [Header(" Movement ")]
     [SerializeField] private float _moveSpeed = 8f; public float moveSpeed { get => _moveSpeed; }
     [SerializeField] private float _airVelocity = 8f; public float airVelocity { get => _airVelocity; }
     [SerializeField] private float _jumpForce = 15; public float jumpForce { get => _jumpForce; }
@@ -41,16 +38,21 @@ public class Player : MonoBehaviour
     {
         _inputManager.onMove += MovementHandler;
         _inputManager.onMoveStopped += MovementHandler;
-        _inputManager.onAttack += _playerCombat.Attack;
+        _inputManager.onAttack += Attack;
     }
 
     private void OnDisable()
     {
         _inputManager.onMove -= MovementHandler;
         _inputManager.onMoveStopped -= MovementHandler;
-        _inputManager.onAttack -= _playerCombat.Attack;
+        _inputManager.onAttack -= Attack;
     }
 
+    void Attack()
+    {
+        _playerCombat.Attack();
+    }
+    
     private void Awake()
     {
         if (Instance == null)

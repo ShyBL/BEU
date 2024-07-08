@@ -201,9 +201,9 @@ MonoBehaviour:
   player: {fileID: 0}
   sightDistance: 5
   fieldOfView: 300
-  maxHealth: 30
+  maxHealth: 20
   currentHealth: 0
-  hitDamage: 5
+  hitDamage: 1
   attacktime: 1
   IsAlive: 0
   sawPlayer: 0

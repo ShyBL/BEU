@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    [SerializeField] private int MaxHealth;
-    [SerializeField] private int HitDamage = 5;
-    [SerializeField] private int currentHealth;
+    [SerializeField] public int MaxHealth;
+    [SerializeField] private int HitDamage;
+    [SerializeField] public int currentHealth;
     public Transform attackPoint;
-    public float attackRange = 1f;
+    public float attackRange;
     public LayerMask enemyLayer;
 
     void Start()
@@ -36,6 +36,9 @@ public class PlayerCombat : MonoBehaviour
     public void GotHit(int damage)
     {
         currentHealth -= damage;
+        
+        PlayerUI.Instance.onGetHit.Invoke(damage);
+        
         if (currentHealth <= 0)
         {
             Die();
