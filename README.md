@@ -9,4 +9,5 @@ Future updates may include additional move sets, weapons, particle effects, and 
 
 https://github.com/user-attachments/assets/96dbec47-2c14-47bc-8ef7-a9f92a930eac
 
+## 📋Tech Design
 ![image](https://github.com/user-attachments/assets/678a859c-dcd5-490c-a26a-bfabefca444b)
